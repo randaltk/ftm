@@ -1,0 +1,49 @@
+.sessaoEmpresa {
+  margin: 4rem 8rem;
+  height: 30rem;
+  @media only screen and (max-width: 1200px) {
+    margin: 2rem 2rem;
+  }
+  @media only screen and (max-width: 600px) {
+    height: auto;
+  }
+}
+.contentBannerEmpresa {
+  float: left;
+
+  max-width: 45%;
+  margin-right: 13rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  img {
+    max-width: 100%;
+  }
+  @media only screen and (max-width: 1200px) {
+    margin-right: 5.2rem;
+  }
+  @media only screen and (max-width: 600px) {
+    display: block;
+    float: right;
+    margin-right: 0rem;
+  }
+}
+
+.contentPresentationEmpresa {
+  max-width: 98%;
+
+  @media only screen and (min-width: 1400px) {
+    max-width: 100%;
+    margin-top: 10rem;
+  }
+}
+
+.topicDois {
+  margin-top: 10px;
+  font-size: 16px;
+
+  span {
+    margin-right: 0.5rem;
+  }
+}
