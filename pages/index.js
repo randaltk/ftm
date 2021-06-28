@@ -6,7 +6,6 @@ export default function Home() {
     <>
       <div>
         <section className={styles.sessaoSobre}>
-          <a id="sobre" name="sobre"></a>
           <div className={styles.contentPresentation}>
             <div className={styles.contentBanner}>
               <Image

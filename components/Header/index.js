@@ -65,20 +65,17 @@ const Header = ({ click }) => {
                 A melhor solução em torque controlado
               </h2>
               <p className={styles.description}></p>
-              <a href="#contato">
-                {" "}
+              <Link href="/contato">
                 <button className={styles.btnDefault}>
-                  <a href="/contato">
-                    Solicitar orçamento
-                    <img
-                      src="https://res.cloudinary.com/aguadeira/image/upload/v1621722710/public/Arrow_4_heq4na.png"
-                      alt="Arrow"
-                      width={9}
-                      height={8}
-                    />
-                  </a>
+                  Solicitar orçamento
+                  <img
+                    src="https://res.cloudinary.com/aguadeira/image/upload/v1621722710/public/Arrow_4_heq4na.png"
+                    alt="Arrow"
+                    width={9}
+                    height={8}
+                  />
                 </button>
-              </a>
+              </Link>
             </div>
           </section>
         </div>

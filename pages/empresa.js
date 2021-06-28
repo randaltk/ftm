@@ -5,7 +5,6 @@ export default function Empresa() {
     <>
       {" "}
       <section className={styles.sessaoEmpresa}>
-        <a id="empresa" name="empresa"></a>
         <div className={styles.contentPresentationEmpresa}>
           <div className={styles.contentBannerEmpresa}>
             <Image
