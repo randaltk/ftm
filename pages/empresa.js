@@ -11,7 +11,7 @@ export default function Empresa() {
             <Image
               width={532.8}
               height={532.8}
-              src="https://res.cloudinary.com/aguadeira/image/upload/v1617378253/Nolan/icon-nr13_uwxlnj.png"
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1624840207/FTM/pexels-kervin-edward-lara-3976320_kmwwlz.jpg"
               alt="NR-13"
             />
           </div>
