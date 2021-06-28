@@ -1,3 +1,3 @@
 export default function Treinamentos() {
-  return <>Treinamentosckf - Página em construção</>;
+  return <>Treinamentos - Página em construção</>;
 }
