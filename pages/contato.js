@@ -26,7 +26,7 @@ export default function Contato() {
 
             <ReactWhatsapp
               className={styles.btnDefault}
-              number="55 11 95363-4019"
+              number="55 11 99416-6042"
               message="Olá! Gostaria de obter mais informações"
               href="#"
             >
