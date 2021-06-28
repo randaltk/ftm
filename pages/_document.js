@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
 
           <link
             rel="icon"
-            href="https://res.cloudinary.com/aguadeira/image/upload/v1621722709/public/favlogo_cizabe.png"
+            href="https://res.cloudinary.com/aguadeira/image/upload/v1624889474/FTM/favicon_2_woo6vg.ico"
           />
         </Head>
         <body>

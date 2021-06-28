@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 import styles from "../../styles/Header.module.scss";
-const Header = () => {
+
+const Header = ({ click }) => {
   return (
     <>
       <header className={styles.headerStyle}>
@@ -19,7 +21,9 @@ const Header = () => {
             </div>
 
             <div className={styles.headerMenu}>
-              <div className={styles.menuIconToggleMenu}>≡</div>
+              <div className={styles.menuIconToggleMenu} onClick={click}>
+                ≡
+              </div>
 
               <nav className={styles.mobileHidden}>
                 <ul>
