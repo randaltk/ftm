@@ -106,7 +106,7 @@ const Footer = () => {
               Endereço
             </h3>
             <p className={styles.footerDescription}>
-              Rua Sete de Julho, 56 - 04760-070 - São Paulo - SP
+             <a target="_blank" href='https://www.google.com.br/maps/place/R.+Sete+de+Julho,+56+-+Vila+Socorro,+S%C3%A3o+Paulo+-+SP,+04760-070/@-23.6637546,-46.7166505,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce51b1847e0071:0x6fcd6e6aefa16a75!8m2!3d-23.6637595!4d-46.7144618'> Rua Sete de Julho, 56 - 04760-070 - São Paulo - SP</a>
             </p>
           </div>
         </div>
