@@ -15,7 +15,7 @@
   width: 100%;
   background: linear-gradient(
     360deg,
-    rgba(0, 0, 0, 0.5) -16.9%,
+    rgba(0, 0, 0, 0.5) 10.9%,
     rgba(0, 151, 195, 0) 100%
   );
 }
@@ -23,6 +23,7 @@
 .logoMetalPev {
   margin-left: 4rem;
   object-fit: cover;
+
   @media only screen and (max-width: 800px) {
     margin-left: 0.2rem;
   }
@@ -33,7 +34,8 @@
 .headerNavigation {
   padding: 0.5rem;
   display: flex;
-  background-color: #d5e0e20e;
+
+  background-color: transparentize($color: #000, $amount: 0.95);
 }
 
 .headerMenu {
@@ -110,7 +112,7 @@
 }
 .textCard {
   max-width: 100%;
-  margin: 3rem 8rem;
+  margin: 1rem 8rem;
 
   @media only screen and (max-width: 800px) {
     margin: 2rem 2rem;

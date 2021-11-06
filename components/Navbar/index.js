@@ -1,6 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/Header.module.scss";
-const Navbar = () => {
+const Navbar = ({ click }) => {
   return (
     <>
       <header className={styles.headerStyle}>
@@ -9,45 +10,47 @@ const Navbar = () => {
             <div className={styles.logoMetalPev}>
               <a href="/">
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636205192/FTM/sadasas-depositphotos-bgremover_jxyrfv.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                  width={160}
-                  height={71}
+                  width={400}
+                  height={200}
                 />
               </a>
             </div>
 
             <div className={styles.headerMenu}>
-              <div className={styles.menuIconToggleMenu}>≡</div>
+              <div className={styles.menuIconToggleMenu} onClick={click}>
+                ≡
+              </div>
 
               <nav className={styles.mobileHidden}>
                 <ul>
                   <li className={styles.navItem}>
-                    <a href="/">Home</a>
+                    <Link href="/">Home</Link>
                   </li>
                   <li className={styles.navItem}>
-                    <a href="/empresa">Empresa</a>
-                  </li>
-
-                  <li className={styles.navItem}>
-                    <a href="/locacao">Locação</a>
-                  </li>
-                  <li className={styles.navItem}>
-                    <a href="/vendas">Vendas</a>
-                  </li>
-                  <li className={styles.navItem}>
-                    <a href="/assistencia-tecnica">Assistência Técnica</a>
+                    <a id="quem-somos">Quem Somos</a>
                   </li>
 
                   <li className={styles.navItem}>
-                    <a href="/projetos-especiais">Projetos Especiais</a>
+                    <Link href="/locacao">Locação</Link>
+                  </li>
+                  <li className={styles.navItem}>
+                    <Link href="/vendas">Vendas</Link>
+                  </li>
+                  <li className={styles.navItem}>
+                    <Link href="/assistencia-tecnica">Serviços</Link>
+                  </li>
+                  {/* 
+                  <li className={styles.navItem}>
+                    <Link href="/projetos-especiais">Projetos Especiais</Link>
                   </li>
 
                   <li className={styles.navItem}>
-                    <a href="/treinamentos">Treinamentos</a>
-                  </li>
+                    <Link href="/treinamentos">Treinamentos</Link>
+                  </li> */}
                   <li className={styles.navItem}>
-                    <a href="/contato">Contato</a>
+                    <Link href="/contato">Contato</Link>
                   </li>
                 </ul>
               </nav>

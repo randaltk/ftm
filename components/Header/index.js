@@ -12,10 +12,10 @@ const Header = ({ click }) => {
             <div className={styles.logoMetalPev}>
               <a href="/">
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636205192/FTM/sadasas-depositphotos-bgremover_jxyrfv.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                  width={160}
-                  height={71}
+                  width={230}
+                  height={120}
                 />
               </a>
             </div>
@@ -31,7 +31,7 @@ const Header = ({ click }) => {
                     <Link href="/">Home</Link>
                   </li>
                   <li className={styles.navItem}>
-                    <Link href="/empresa">Empresa</Link>
+                    <a id="quem-somos">Quem Somos</a>
                   </li>
 
                   <li className={styles.navItem}>
@@ -41,16 +41,16 @@ const Header = ({ click }) => {
                     <Link href="/vendas">Vendas</Link>
                   </li>
                   <li className={styles.navItem}>
-                    <Link href="/assistencia-tecnica">Assistência Técnica</Link>
+                    <Link href="/assistencia-tecnica">Serviços</Link>
                   </li>
-
+                  {/* 
                   <li className={styles.navItem}>
                     <Link href="/projetos-especiais">Projetos Especiais</Link>
                   </li>
 
                   <li className={styles.navItem}>
                     <Link href="/treinamentos">Treinamentos</Link>
-                  </li>
+                  </li> */}
                   <li className={styles.navItem}>
                     <Link href="/contato">Contato</Link>
                   </li>
@@ -62,7 +62,8 @@ const Header = ({ click }) => {
           <section className={styles.headerContent}>
             <div className={styles.textCard}>
               <h2 className={styles.title}>
-                A melhor solução em torque controlado
+                Soluções em Montagens Industriais com Equipamentos Hidráulicos
+                de Alta Pressão
               </h2>
               <p className={styles.description}></p>
               <Link href="/contato">

@@ -7,7 +7,7 @@ const Topbar = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.item}>
-            <span> (011) 5513-5272</span>
+            <span>Fábrica (Matriz): 11 5522-6262 </span>
 
             <Image
               src="https://res.cloudinary.com/aguadeira/image/upload/v1623681451/FTM/pngegg_1_yo4wa3.png"
@@ -19,7 +19,7 @@ const Topbar = () => {
           </div>
 
           <div className={styles.item}>
-            <span> (011) 2574-5782</span>
+            <span> Comercial (filial): 11 2304-5873</span>
             <Image
               src="https://res.cloudinary.com/aguadeira/image/upload/v1623681451/FTM/pngegg_1_yo4wa3.png"
               alt="Tel"
@@ -28,7 +28,7 @@ const Topbar = () => {
             />
             <div className={styles.separator}></div>
           </div>
-
+          {/* 
           <div className={styles.item}>
             <span> (011) 99416-6042</span>
             <Image
@@ -38,7 +38,7 @@ const Topbar = () => {
               height={25}
             />
             <div className={styles.separator}></div>
-          </div>
+          </div> */}
 
           <div className={styles.item}>
             <span>contato@ftm.net.br</span>
