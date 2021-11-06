@@ -12,10 +12,10 @@ const Header = ({ click }) => {
             <div className={styles.logoMetalPev}>
               <a href="/">
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636205192/FTM/sadasas-depositphotos-bgremover_jxyrfv.png"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636222932/FTM/sadasas_lelmlm-removebg-preview_vuim5u.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                  width={230}
-                  height={120}
+                  width={200}
+                  height={100}
                 />
               </a>
             </div>
@@ -31,7 +31,7 @@ const Header = ({ click }) => {
                     <Link href="/">Home</Link>
                   </li>
                   <li className={styles.navItem}>
-                    <a id="quem-somos">Quem Somos</a>
+                    <a href="#quem-somos">Quem Somos</a>
                   </li>
 
                   <li className={styles.navItem}>

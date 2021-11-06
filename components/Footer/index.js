@@ -9,19 +9,19 @@ const Footer = () => {
         <div className={styles.horizontalLayout}>
           <div className={styles.siteMap}>
             <div className={styles.logoMetalPev}>
-              <a href="/">
+              <Link href="/">
                 <img
                   src="https://res.cloudinary.com/aguadeira/image/upload/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
                 />
-              </a>
+              </Link>
             </div>
             <ul className={styles.siteMap}>
               <li>
-                <Link href="#home">Home</Link>
+                <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#empresa">Empresa</Link>
+                <Link href="#quem-somos">Quem Somos</Link>
               </li>
               <li>
                 <Link href="/locacao">Locação</Link>
@@ -29,15 +29,15 @@ const Footer = () => {
               <li>
                 <Link href="/vendas">Vendas</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/assistencia-tecnica">Assistência Técnica</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/projetos-especiais">Projetos Especiais</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="/treinamentos">Treinamentos</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/contato">Contato</Link>
               </li>
@@ -106,7 +106,13 @@ const Footer = () => {
               Endereço
             </h3>
             <p className={styles.footerDescription}>
-             <a target="_blank" href='https://www.google.com.br/maps/place/R.+Sete+de+Julho,+56+-+Vila+Socorro,+S%C3%A3o+Paulo+-+SP,+04760-070/@-23.6637546,-46.7166505,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce51b1847e0071:0x6fcd6e6aefa16a75!8m2!3d-23.6637595!4d-46.7144618'> Rua Sete de Julho, 56 - 04760-070 - São Paulo - SP</a>
+              <a
+                target="_blank"
+                href="https://www.google.com.br/maps/place/R.+Sete+de+Julho,+56+-+Vila+Socorro,+S%C3%A3o+Paulo+-+SP,+04760-070/@-23.6637546,-46.7166505,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce51b1847e0071:0x6fcd6e6aefa16a75!8m2!3d-23.6637595!4d-46.7144618"
+              >
+                {" "}
+                Rua Sete de Julho, 56 - 04760-070 - São Paulo - SP
+              </a>
             </p>
           </div>
         </div>

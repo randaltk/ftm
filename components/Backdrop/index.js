@@ -16,7 +16,7 @@ const Backdrop = ({ click, show }) => {
                 <Link href="/">Home</Link>
               </li>
               <li className={styles.navItem}>
-                <Link href="/empresa">Empresa</Link>
+                <a href="#quem-somos">Quem Somos</a>
               </li>
 
               <li className={styles.navItem}>
@@ -26,16 +26,16 @@ const Backdrop = ({ click, show }) => {
                 <Link href="/vendas">Vendas</Link>
               </li>
               <li className={styles.navItem}>
-                <Link href="/assistencia-tecnica">Assistência Técnica</Link>
+                <Link href="/assistencia-tecnica">Serviços</Link>
               </li>
+              {/* 
+                  <li className={styles.navItem}>
+                    <Link href="/projetos-especiais">Projetos Especiais</Link>
+                  </li>
 
-              <li className={styles.navItem}>
-                <Link href="/projetos-especiais">Projetos Especiais</Link>
-              </li>
-
-              <li className={styles.navItem}>
-                <Link href="/treinamentos">Treinamentos</Link>
-              </li>
+                  <li className={styles.navItem}>
+                    <Link href="/treinamentos">Treinamentos</Link>
+                  </li> */}
               <li className={styles.navItem}>
                 <Link href="/contato">Contato</Link>
               </li>
