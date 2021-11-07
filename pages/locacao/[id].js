@@ -12,7 +12,7 @@ function Details(props) {
         <div className={styles.sessaoContent}>
           <section className={styles.sessaoLocacao}>
             <div>
-              <h2>Locação</h2>
+              <h2>{props.router.query.nome}</h2>
             </div>
 
             <li className={styles.navItem}>
