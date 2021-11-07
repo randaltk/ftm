@@ -261,7 +261,6 @@
     text-align: start;
   }
   .indice {
-    border: 1px solid #f9f9f9;
     background: #f9f9f9;
   }
   .navItem {
@@ -367,16 +366,14 @@
   h3 {
     font-size: 1.3rem;
   }
-
+  p {
+    display: none;
+  }
   @media only screen and (max-width: 500px) {
     h3 {
       font-size: 0.9rem;
     }
   }
-}
-
-.cardsDescription p {
-  display: none;
 }
 
 .sessaoContato {
