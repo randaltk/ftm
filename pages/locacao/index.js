@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import locacaoMock from "./mock";
+import locacaoMock from "../../mocks/locacaoMock";
 export default function Locacao() {
   const router = useRouter();
   const routeChange = (e, nome, id) => {
