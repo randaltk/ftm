@@ -26,4 +26,4 @@ const locacaoMock = [
     id: 4,
   },
 ];
-export { locacaoMock };
+export default { locacaoMock };
