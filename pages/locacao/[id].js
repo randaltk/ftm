@@ -15,12 +15,8 @@ function Details(props) {
           <li className={styles.navItem}>
             <Link href="/">Home</Link> <span>{"»"}</span>
             <Link href="/locacao">Locação</Link>
-            <span>{"»"}</span>
-            <Link href={`locacao/${props.router.query.id}`}>
-              <span style={{ textAlign: "start" }}>
-                {props.router.query.nome}
-              </span>
-            </Link>
+            <span>{` » `}</span>
+            <span>{props.router.query.nome}</span>
           </li>
         </div>
 
