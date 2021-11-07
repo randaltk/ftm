@@ -29,6 +29,7 @@
 .logoMetalPev {
   margin-left: 4rem;
   object-fit: cover;
+
   @media only screen and (max-width: 800px) {
     margin-left: 0.2rem;
   }
@@ -239,6 +240,43 @@
     margin-bottom: 35rem;
   }
 }
+
+.sessaoLocacao {
+  text-align: center;
+  margin: 0rem 6rem;
+
+  @media only screen and (max-width: 800px) {
+    margin: 0rem 2rem;
+  }
+  @media only screen and (max-width: 1200px) {
+    margin-bottom: 15rem;
+  }
+  @media only screen and (max-width: 800px) {
+    margin-bottom: 25rem;
+  }
+  @media only screen and (max-width: 600px) {
+    margin-bottom: 35rem;
+  }
+  h2 {
+    text-align: start;
+  }
+  .indice {
+    border: 1px solid #f9f9f9;
+    background: #f9f9f9;
+  }
+  .navItem {
+    color: #000;
+    font-weight: 100;
+    display: flex;
+
+    justify-content: flex-start;
+    margin-bottom: 2em;
+
+    span {
+      margin: 0 0.5em;
+    }
+  }
+}
 .descriptionServicos {
   width: 50%;
   margin: 1rem auto;
@@ -247,11 +285,27 @@
     width: 100%;
   }
 }
+
 .cards {
   margin-top: 0.5rem;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3%;
+
+  @media only screen and (max-width: 1200px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+.cardsLocacao {
+  margin-top: 0.5rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 3%;
 
   @media only screen and (max-width: 1200px) {

@@ -11,11 +11,9 @@ const Header = ({ click }) => {
           <div className={styles.headerNavigation}>
             <div className={styles.logoMetalPev}>
               <a href="/">
-                <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636222932/FTM/sadasas_lelmlm-removebg-preview_vuim5u.png"
+                <img
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636228064/FTM/ftmlogo_w9ajqq.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                  width={200}
-                  height={100}
                 />
               </a>
             </div>

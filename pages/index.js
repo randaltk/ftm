@@ -1,7 +1,20 @@
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
 import ReactWhatsapp from "react-whatsapp";
+import { useRouter } from "next/router";
 export default function Home() {
+  const router = useRouter();
+  const routeChange = (e, item) => {
+    let path = "";
+    if (item === "locacao") {
+      path = "locacao";
+    } else {
+      path = "vendas";
+    }
+    e.preventDefault();
+    router.push(path);
+  };
+
   return (
     <>
       <div>
@@ -14,8 +27,8 @@ export default function Home() {
           >
             <img
               alt="WhatsApp"
-              width={60}
-              height={60}
+              width={55}
+              height={55}
               src="https://res.cloudinary.com/aguadeira/image/upload/v1636221969/FTM/logo-whatsapp-png-46041_1_vtrevq.png"
             />
           </ReactWhatsapp>
@@ -88,7 +101,10 @@ export default function Home() {
           </div>
 
           <div className={styles.cards}>
-            <div className={styles.cardsContent}>
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "locacao")}
+            >
               <Image
                 className={styles.cardsContentImg}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1624832143/FTM/f-10-serie-f_1_emdwpg.jpg"
@@ -114,7 +130,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className={styles.cardsContent}>
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "venda")}
+            >
               <Image
                 className={styles.cardsContentImg}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1624832521/FTM/fch-10-serie-champion_2_rgf5w3.jpg"
@@ -133,7 +152,10 @@ export default function Home() {
               </div>
             </div>
 
-            <div className={styles.cardsContent}>
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "assistencia")}
+            >
               <Image
                 className={styles.cardsContentImg}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1624833289/FTM/fch-1-serie-champion_1_dbj87n.jpg"
