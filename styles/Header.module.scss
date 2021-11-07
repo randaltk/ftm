@@ -22,15 +22,21 @@
 
 .logoMetalPev {
   margin-left: 4rem;
-  object-fit: cover;
-  max-width: 14em;
+  // max-width: 17%;
+
   @media only screen and (max-width: 800px) {
     margin-left: 0.2rem;
   }
+
+  // a {
+  //   object-fit: cover;
+  // }
+
+  // img {
+  //   width: 100%;
+  // }
 }
-.logoMetalPev img {
-  width: 100%;
-}
+
 .headerNavigation {
   padding: 0.5rem;
   display: flex;

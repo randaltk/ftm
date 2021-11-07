@@ -6,12 +6,27 @@ import { useRouter } from "next/router";
 import locacaoMock from "../../mocks/locacaoMock";
 export default function Locacao() {
   const router = useRouter();
-  const routeChange = (e, nome, id) => {
+  const routeChange = (
+    e,
+    id,
+    nome,
+    imagem,
+    descricao,
+    fichaTecnica,
+    imagemTabela
+  ) => {
     e.preventDefault();
+
     return router.push({
       pathname: `locacao/${id}`,
 
-      query: { nome: nome },
+      query: {
+        nome: nome,
+        imagem: imagem,
+        descricao: descricao,
+        fichaTecnica: JSON.stringify(fichaTecnica),
+        imagemTabela: imagemTabela,
+      },
     });
   };
 
@@ -31,18 +46,29 @@ export default function Locacao() {
           {locacaoMock.map((locacao, key) => (
             <div
               className={styles.cardsContent}
-              onClick={(e) => routeChange(e, locacao.nome, locacao.id)}
+              onClick={(e) =>
+                routeChange(
+                  e,
+                  locacao.id,
+                  locacao.nome,
+                  locacao.imagem,
+                  locacao.descricao,
+                  locacao.fichaTecnica,
+                  locacao.imagemTabela
+                )
+              }
               key={key}
             >
               <Image
                 className={styles.cardsContentImg}
-                src={locacao.image}
+                src={locacao.imagem}
                 alt={locacao.nome}
                 width={500}
                 height={500}
               />
 
               <h3>{locacao.nome}</h3>
+              {console.log("asfafa", locacao.fichaTecnica)}
             </div>
           ))}
         </div>

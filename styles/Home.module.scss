@@ -248,15 +248,7 @@
   @media only screen and (max-width: 800px) {
     margin: 0rem 2rem;
   }
-  @media only screen and (max-width: 1200px) {
-    margin-bottom: 15rem;
-  }
-  @media only screen and (max-width: 800px) {
-    margin-bottom: 25rem;
-  }
-  @media only screen and (max-width: 600px) {
-    margin-bottom: 35rem;
-  }
+
   h2 {
     text-align: start;
   }
@@ -273,6 +265,21 @@
 
     span {
       margin: 0 0.5em;
+    }
+  }
+
+  .boxDescricao {
+    text-align: start;
+  }
+
+  .boxFicha {
+    display: grid;
+    grid-template-columns: 25% 50%;
+    @media only screen and (max-width: 800px) {
+      grid-template-columns: 35% 50%;
+    }
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: auto;
     }
   }
 }
