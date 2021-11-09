@@ -1,13 +1,12 @@
 .headerStyle {
-  background-image: url("https://res.cloudinary.com/aguadeira/image/upload/v1621735018/public/header_1_vnlqqe.png");
-  background-position: center top 11%;
+  background-image: url("https://res.cloudinary.com/aguadeira/image/upload/v1636476869/FTM/4358e34d-1e1b-43fa-abc7-279569dfffab_e8c4xx.jpg");
+  background-position: center top 72%;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.99;
+
   color: #fff;
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .linearGradient {
@@ -15,13 +14,14 @@
   width: 100%;
   background: linear-gradient(
     360deg,
-    rgba(0, 0, 0, 0.5) 10.9%,
+    rgba(0, 0, 0, 0.45) 100%,
     rgba(0, 151, 195, 0) 100%
   );
 }
 
 .logoMetalPev {
   margin-left: 4rem;
+
   // max-width: 17%;
 
   @media only screen and (max-width: 800px) {
@@ -40,8 +40,6 @@
 .headerNavigation {
   padding: 0.5rem;
   display: flex;
-
-  background-color: transparentize($color: #f9f9f9, $amount: 0.97);
 }
 
 .headerMenu {
@@ -75,16 +73,15 @@
 }
 
 .navItem {
-  color: white;
   text-decoration: none;
   margin: auto;
   transition: 0.3s ease;
   display: inline-block;
   vertical-align: middle;
   padding: 10px 15px;
+  font-weight: 620;
   text-shadow: -0.5px 0 0.1px black, 0 0.5px 0.1px black, 0.5px 0 0.1px black,
-    0 -0.5px 0.1px black;
-
+    0 -0.5px 0.1px rgb(0, 0, 0);
   a {
     position: relative;
     padding: 0 10px;
@@ -128,6 +125,8 @@
   font-weight: bold;
   font-size: 2.25rem;
   margin: auto;
+  text-shadow: -0.5px 0 0.1px black, 0 0.5px 0.1px black, 0.5px 0 0.1px black,
+    0 -0.5px 0.1px black;
   word-wrap: break-word;
   @media only screen and (max-width: 600px) {
     font-size: 1.5rem;

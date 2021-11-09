@@ -41,7 +41,7 @@ const Header = ({ click }) => {
                     <Link href="/vendas">Vendas</Link>
                   </li>
                   <li className={styles.navItem}>
-                    <Link href="/assistencia-tecnica">Serviços</Link>
+                    <Link href="/servicos">Serviços</Link>
                   </li>
                   {/* 
                   <li className={styles.navItem}>

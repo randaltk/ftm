@@ -158,7 +158,7 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1624833289/FTM/fch-1-serie-champion_1_dbj87n.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
                 alt="Escadas"
                 width={500}
                 height={500}
