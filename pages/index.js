@@ -6,8 +6,11 @@ export default function Home() {
   const router = useRouter();
   const routeChange = (e, item) => {
     let path = "";
+
     if (item === "locacao") {
       path = "locacao";
+    } else if (item === "assistencia") {
+      path = "assistencia-tecnica";
     } else {
       path = "vendas";
     }

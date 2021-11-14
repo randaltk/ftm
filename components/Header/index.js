@@ -40,9 +40,27 @@ const Header = ({ click }) => {
                   <li className={styles.navItem}>
                     <Link href="/vendas">Vendas</Link>
                   </li>
-                  <li className={styles.navItem}>
-                    <Link href="/servicos">Serviços</Link>
-                  </li>
+
+                  <div className={styles.dropdown}>
+                    <li className={styles.navItem}>Serviços</li>
+                    <div className={styles.dropdownContent}>
+                      <ul>
+                        <li className={styles.navItem}>
+                          <Link href="/calibracao">Calibração</Link>
+                        </li>
+
+                        <li className={styles.navItem}>
+                          <Link href="/manutencao">Manutenção</Link>
+                        </li>
+
+                        <li className={styles.navItem}>
+                          <Link href="/assistencia-tecnica">
+                            Assistência técnica
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                   {/* 
                   <li className={styles.navItem}>
                     <Link href="/projetos-especiais">Projetos Especiais</Link>
