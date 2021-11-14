@@ -9,8 +9,9 @@ const ComprarFTM = () => {
           <div className={styles.borderStyle}></div>
           <h2 className={styles.title}>Por que Comprar da FTM?</h2>
           <p className={styles.description}>
-            Comprando equipamentos NACIONAIS fabricados pela FTM, você não está
-            sujeito a problemas como:
+            Comprando equipamentos NACIONAIS fabricados pela FTM, você{" "}
+            <span style={{ fontWeight: "bold" }}>NÃO</span> está sujeito a
+            problemas como:
           </p>
 
           <ul className={styles.detail}>

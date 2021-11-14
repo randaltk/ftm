@@ -8,7 +8,7 @@ export default function AssistenciaTecnica() {
     <>
       <section className={styles.sessaoLocacao}>
         <div className={styles.indice}>
-          <h2>Assistência Técncia</h2>
+          <h2>Assistência Técnica</h2>
 
           <li className={styles.navItem}>
             <Link href="/">Home</Link> <span>{"»"}</span>
