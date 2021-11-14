@@ -58,6 +58,10 @@ const Header = ({ click }) => {
                             Assistência técnica
                           </Link>
                         </li>
+
+                        <li className={styles.navItem}>
+                          <Link href="/treinamentos">Treinamentos</Link>
+                        </li>
                       </ul>
                     </div>
                   </div>

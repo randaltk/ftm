@@ -36,6 +36,10 @@ const Backdrop = ({ click, show }) => {
               <li className={styles.navItem}>
                 <Link href="/assistencia-tecnica">Assistência técnica</Link>
               </li>
+
+              <li className={styles.navItem}>
+                <Link href="/treinamentos">Treinamentos</Link>
+              </li>
               <li className={styles.navItem}>
                 <Link href="/contato">Contato</Link>
               </li>
