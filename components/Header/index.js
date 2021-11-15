@@ -66,8 +66,10 @@ const Header = ({ click }) => {
           <section className={styles.headerContent}>
             <div className={styles.textCard}>
               <h2 className={styles.title}>
-                Soluções em Montagens Industriais
+                "A melhor solução em torque controlado"
               </h2>
+
+              <p>Torqueando ou tencionando a FTM é a melhor opção.</p>
               <p className={styles.description}></p>
               <Link href="/contato">
                 <button className={styles.btnDefault}>

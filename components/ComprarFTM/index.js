@@ -7,7 +7,7 @@ const ComprarFTM = () => {
       <div className={styles.contentPresentation}>
         <div className={styles.sessaoContent}>
           <div className={styles.borderStyle}></div>
-          <h2 className={styles.title}>Por que Comprar da FTM?</h2>
+          <h2 className={styles.title}>Por que comprar da FTM?</h2>
           <p className={styles.description}>
             Comprando equipamentos NACIONAIS fabricados pela FTM, você{" "}
             <span style={{ fontWeight: "bold" }}>NÃO</span> está sujeito a
