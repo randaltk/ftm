@@ -110,10 +110,10 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1624832143/FTM/f-10-serie-f_1_emdwpg.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636987518/FTM/80567124-1081-433c-883d-d01e0214cfa3_1_h4sccd.jpg"
                 alt="Caldeiras"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Locação de Máquinas e Ferramentas</h3>
@@ -139,10 +139,10 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1624832521/FTM/fch-10-serie-champion_2_rgf5w3.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636987443/FTM/venda_1_z2kkkn.jpg"
                 alt="Válvulas"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Venda de Máquinas e Ferramentas</h3>
@@ -161,10 +161,10 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636989021/FTM/0b425151-3a22-4b00-8ff8-1b12536c0b2a_1_v8c61u.jpg"
                 alt="Escadas"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Calibração</h3>
@@ -184,8 +184,8 @@ export default function Home() {
                 className={styles.cardsContentImg}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
                 alt="Escadas"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Manutenção</h3>
@@ -205,8 +205,8 @@ export default function Home() {
                 className={styles.cardsContentImg}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
                 alt="Escadas"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Assistência Técnica</h3>
@@ -224,10 +224,10 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636990367/FTM/83e540ab-c0b6-4393-a21a-a747945fe95d_2_q2s7u0.jpg"
                 alt="Escadas"
-                width={500}
-                height={500}
+                width={578}
+                height={640}
               />
               <div className={styles.cardsDescription}>
                 <h3>Treinamentos</h3>

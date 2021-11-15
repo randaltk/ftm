@@ -71,7 +71,6 @@ export default function Vendas() {
               />
 
               <h3>{locacao.nome}</h3>
-              {console.log("asfafa", locacao.fichaTecnica)}
             </div>
           ))}
         </div>
