@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/globals.scss";
 import styles from "../styles/Home.module.scss";
 import Head from "next/head";
-
+import ReactWhatsapp from "react-whatsapp";
 // Components
 
 // import Navbar from "../components/Navbar";
@@ -22,6 +22,19 @@ function MyApp({ Component, pageProps }) {
       <main className={styles.bodyContent}>
         <Topbar />
         <Header click={() => setSideToggle(true)} />
+        <ReactWhatsapp
+          className={styles.wppAbsolute}
+          number="55 11 99416-6042"
+          message="Olá! Gostaria de obter mais informações"
+          href="#"
+        >
+          <img
+            alt="WhatsApp"
+            width={55}
+            height={55}
+            src="https://res.cloudinary.com/aguadeira/image/upload/v1636221969/FTM/logo-whatsapp-png-46041_1_vtrevq.png"
+          />
+        </ReactWhatsapp>
         <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
         <Component {...pageProps} />
         <Footer />

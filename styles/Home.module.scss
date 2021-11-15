@@ -154,23 +154,6 @@
 .sessaoSobre {
   margin: 2rem 8rem;
 
-  .wppAbsolute {
-    position: fixed;
-    border: transparent;
-    right: 0;
-    top: 0;
-    z-index: 100;
-    background-color: transparent;
-    cursor: pointer;
-    margin-top: 20em;
-    margin-right: 2.5em;
-    object-fit: cover;
-
-    @media only screen and (max-width: 800px) {
-      display: none;
-    }
-  }
-
   @media only screen and (max-width: 800px) {
     margin: 2rem 2rem;
   }
@@ -405,5 +388,21 @@
     .description {
       margin-top: 5%;
     }
+  }
+}
+.wppAbsolute {
+  position: fixed;
+  border: transparent;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 20em;
+  margin-right: 2.5em;
+  object-fit: cover;
+
+  @media only screen and (max-width: 800px) {
+    display: none;
   }
 }

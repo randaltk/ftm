@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
-import ReactWhatsapp from "react-whatsapp";
+
 import { useRouter } from "next/router";
 export default function Home() {
   const router = useRouter();
@@ -22,19 +22,6 @@ export default function Home() {
     <>
       <div>
         <section className={styles.sessaoSobre}>
-          <ReactWhatsapp
-            className={styles.wppAbsolute}
-            number="55 11 99416-6042"
-            message="Olá! Gostaria de obter mais informações"
-            href="#"
-          >
-            <img
-              alt="WhatsApp"
-              width={55}
-              height={55}
-              src="https://res.cloudinary.com/aguadeira/image/upload/v1636221969/FTM/logo-whatsapp-png-46041_1_vtrevq.png"
-            />
-          </ReactWhatsapp>
           <div className={styles.contentPresentation}>
             <div className={styles.contentBanner}>
               <Image
