@@ -21,23 +21,30 @@ const Footer = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="#quem-somos">Quem Somos</Link>
+                <a href="#quem-somos">Quem Somos</a>
               </li>
+
               <li>
                 <Link href="/locacao">Locação</Link>
               </li>
               <li>
                 <Link href="/vendas">Vendas</Link>
               </li>
-              {/* <li>
-                <Link href="/assistencia-tecnica">Assistência Técnica</Link>
-              </li> */}
-              {/* <li>
-                <Link href="/projetos-especiais">Projetos Especiais</Link>
-              </li> */}
-              {/* <li>
+              <li>
+                <Link href="/calibracao">Calibração</Link>
+              </li>
+
+              <li>
+                <Link href="/manutencao">Manutenção</Link>
+              </li>
+
+              <li>
+                <Link href="/assistencia-tecnica">Assistência técnica</Link>
+              </li>
+
+              <li>
                 <Link href="/treinamentos">Treinamentos</Link>
-              </li> */}
+              </li>
               <li>
                 <Link href="/contato">Contato</Link>
               </li>

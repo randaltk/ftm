@@ -167,7 +167,70 @@ export default function Home() {
                 height={500}
               />
               <div className={styles.cardsDescription}>
+                <h3>Calibração</h3>
+                <p>
+                  A FTM conta com uma equipe técnica altamente qualificada para
+                  manutenção de máquinas e ferramentas do segmento hidráulico,
+                  mecânico, elétrico, pneumático e manual.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "assistencia")}
+            >
+              <Image
+                className={styles.cardsContentImg}
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
+                alt="Escadas"
+                width={500}
+                height={500}
+              />
+              <div className={styles.cardsDescription}>
+                <h3>Manutenção</h3>
+                <p>
+                  A FTM conta com uma equipe técnica altamente qualificada para
+                  manutenção de máquinas e ferramentas do segmento hidráulico,
+                  mecânico, elétrico, pneumático e manual.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "assistencia")}
+            >
+              <Image
+                className={styles.cardsContentImg}
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
+                alt="Escadas"
+                width={500}
+                height={500}
+              />
+              <div className={styles.cardsDescription}>
                 <h3>Assistência Técnica</h3>
+                <p>
+                  A FTM conta com uma equipe técnica altamente qualificada para
+                  manutenção de máquinas e ferramentas do segmento hidráulico,
+                  mecânico, elétrico, pneumático e manual.
+                </p>
+              </div>
+            </div>
+
+            <div
+              className={styles.cardsContent}
+              onClick={(e) => routeChange(e, "assistencia")}
+            >
+              <Image
+                className={styles.cardsContentImg}
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
+                alt="Escadas"
+                width={500}
+                height={500}
+              />
+              <div className={styles.cardsDescription}>
+                <h3>Treinamentos</h3>
                 <p>
                   A FTM conta com uma equipe técnica altamente qualificada para
                   manutenção de máquinas e ferramentas do segmento hidráulico,
