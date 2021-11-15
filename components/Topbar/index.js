@@ -10,15 +10,20 @@ const Topbar = () => {
             <a href="/">
               <Image
                 width={214}
-                height={109.5}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636228064/FTM/ftmlogo_w9ajqq.png"
+                height={112}
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636991087/FTM/sadasas_lelmlm_1_a6uq54.jpg"
                 alt="FTM Equipamentos Hidráulicos de Alta Pressão"
               />
             </a>
           </div>
 
           <div className={styles.item}>
-            <span>Fábrica (Matriz): 11 5522-6262 </span>
+            <div style={{ display: " flex" }}>
+              <span>
+                <b>Fábrica (Matriz):</b> 11 5522-6264{" "}
+              </span>
+              <span style={{ marginLeft: "0.5em" }}>| 11 2574-5782 </span>
+            </div>
 
             <Image
               src="https://res.cloudinary.com/aguadeira/image/upload/v1623681451/FTM/pngegg_1_yo4wa3.png"
@@ -30,7 +35,13 @@ const Topbar = () => {
           </div>
 
           <div className={styles.item}>
-            <span> Comercial (filial): 11 2304-5873</span>
+            <div style={{ display: "flex" }}>
+              <span>
+                <b>Comercial (filial):</b> 11 2304-5873
+              </span>
+              <span style={{ marginLeft: "0.5em" }}>| 11 2304-2767 </span>
+            </div>
+
             <Image
               src="https://res.cloudinary.com/aguadeira/image/upload/v1623681451/FTM/pngegg_1_yo4wa3.png"
               alt="Tel"
