@@ -26,17 +26,6 @@
   );
 }
 
-.logoMetalPev {
-  margin-left: 4rem;
-  object-fit: cover;
-
-  @media only screen and (max-width: 800px) {
-    margin-left: 0.2rem;
-  }
-}
-.logoMetalPev img {
-  width: 100%;
-}
 .headerNavigation {
   padding: 0.5rem;
   display: flex;
@@ -173,7 +162,7 @@
     z-index: 100;
     background-color: transparent;
     cursor: pointer;
-    margin-top: 18em;
+    margin-top: 20em;
     margin-right: 2.5em;
     object-fit: cover;
 

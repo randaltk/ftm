@@ -38,7 +38,7 @@ export default function Home() {
           <div className={styles.contentPresentation}>
             <div className={styles.contentBanner}>
               <Image
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1621735210/public/sectionsobre_1_kz7ogq_1_d6wuw0.png"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
                 alt="Inspeção"
                 width={438.08}
                 height={350.38}
@@ -64,10 +64,10 @@ export default function Home() {
               <h2 className={styles.title}> História</h2>
               <div className={styles.contentBanner}>
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1624840207/FTM/pexels-kervin-edward-lara-3976320_kmwwlz.jpg"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636985162/FTM/eaeff13f-25c1-481d-ad07-d25ad1a94910_2_uiwimd.jpg"
                   alt="Inspeção"
-                  width={438.08}
-                  height={350.38}
+                  width={905}
+                  height={768}
                 />
               </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
           style={{ marginBottom: "200px", marginTop: "10%" }}
         >
           <div>
-            <h2 className={styles.title}>Serviços</h2>
+            <h2 className={styles.title}>Serviços e Produtos</h2>
             {/* <p className={styles.descriptionServicos}>
               Equipamentos hidráulicos de alta pressão.
             </p> */}

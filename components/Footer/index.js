@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
             </ul>
             <ul className={styles.footerContact}>
-              <li>
+              {/* <li>
                 <p>
                   <img
                     alt="WhatsApp"
@@ -88,7 +88,7 @@ const Footer = () => {
                   />
                   55 11 99416-6042
                 </p>
-              </li>
+              </li> */}
               <li>
                 <p>
                   <img

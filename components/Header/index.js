@@ -9,17 +9,6 @@ const Header = ({ click }) => {
       <header className={styles.headerStyle}>
         <div className={styles.linearGradient}>
           <div className={styles.headerNavigation}>
-            <div className={styles.logoMetalPev}>
-              <a href="/">
-                <Image
-                  width={214}
-                  height={109.5}
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636228064/FTM/ftmlogo_w9ajqq.png"
-                  alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                />
-              </a>
-            </div>
-
             <div className={styles.headerMenu}>
               <div className={styles.menuIconToggleMenu} onClick={click}>
                 ≡
@@ -65,14 +54,7 @@ const Header = ({ click }) => {
                       </ul>
                     </div>
                   </div>
-                  {/* 
-                  <li className={styles.navItem}>
-                    <Link href="/projetos-especiais">Projetos Especiais</Link>
-                  </li>
 
-                  <li className={styles.navItem}>
-                    <Link href="/treinamentos">Treinamentos</Link>
-                  </li> */}
                   <li className={styles.navItem}>
                     <Link href="/contato">Contato</Link>
                   </li>
@@ -84,8 +66,7 @@ const Header = ({ click }) => {
           <section className={styles.headerContent}>
             <div className={styles.textCard}>
               <h2 className={styles.title}>
-                Soluções em Montagens Industriais com Equipamentos Hidráulicos
-                de Alta Pressão
+                Soluções em Montagens Industriais
               </h2>
               <p className={styles.description}></p>
               <Link href="/contato">
@@ -100,6 +81,27 @@ const Header = ({ click }) => {
                 </button>
               </Link>
             </div>
+
+            {/* <div className={styles.imagesContainer}>
+              <Image
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636982380/FTM/slider_tmmjqz.jpg"
+                alt="Inspeção"
+                width={438.08}
+                height={350.38}
+              />
+              <Image
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636982252/FTM/c102801e-b6cc-48e8-886f-03dc4dc7bdda_rtdt4r.jpg"
+                alt="Inspeção"
+                width={438.08}
+                height={350.38}
+              />
+              <Image
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1624840207/FTM/pexels-kervin-edward-lara-3976320_kmwwlz.jpg"
+                alt="Inspeção"
+                width={438.08}
+                height={350.38}
+              />
+            </div> */}
           </section>
         </div>
       </header>

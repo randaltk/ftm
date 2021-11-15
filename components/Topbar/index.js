@@ -6,6 +6,17 @@ const Topbar = () => {
     <>
       <div className={styles.container}>
         <div className={styles.content}>
+          <div className={styles.logoMetalPev}>
+            <a href="/">
+              <Image
+                width={214}
+                height={109.5}
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1636228064/FTM/ftmlogo_w9ajqq.png"
+                alt="FTM Equipamentos Hidráulicos de Alta Pressão"
+              />
+            </a>
+          </div>
+
           <div className={styles.item}>
             <span>Fábrica (Matriz): 11 5522-6262 </span>
 
@@ -28,17 +39,6 @@ const Topbar = () => {
             />
             <div className={styles.separator}></div>
           </div>
-          {/* 
-          <div className={styles.item}>
-            <span> (011) 99416-6042</span>
-            <Image
-              src="https://res.cloudinary.com/aguadeira/image/upload/v1621877447/public/580b57fcd9996e24bc43c543_rq3rpg_1_hzqvlk.png"
-              alt="WhatsApp"
-              width={25}
-              height={25}
-            />
-            <div className={styles.separator}></div>
-          </div> */}
 
           <div className={styles.item}>
             <span>contato@ftm.net.br</span>

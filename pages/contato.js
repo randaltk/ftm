@@ -8,10 +8,10 @@ export default function Contato() {
         <div className={styles.contentPresentation}>
           <div className={styles.contentBanner}>
             <Image
-              src="https://res.cloudinary.com/aguadeira/image/upload/v1621748263/public/pexels-linkedin-sales-navigator-2182973_2_zc2bpt.jpg"
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1636984268/FTM/pexels-photo-210647_1_knblxa.jpg"
               alt="Entre em contato"
-              width={438.08}
-              height={350.38}
+              width={940}
+              height={627}
               alt="Contato"
             />
           </div>

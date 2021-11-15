@@ -1,5 +1,5 @@
 .headerStyle {
-  background-image: url("https://res.cloudinary.com/aguadeira/image/upload/v1636476869/FTM/4358e34d-1e1b-43fa-abc7-279569dfffab_e8c4xx.jpg");
+  background-image: url("https://res.cloudinary.com/aguadeira/image/upload/v1636982380/FTM/slider_tmmjqz.jpg");
   background-position: center top 72%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 }
 
 .headerNavigation {
-  padding: 0.5rem;
+  padding: 1.5rem;
   display: flex;
 
   .dropdown {
@@ -165,10 +165,18 @@
   display: grid;
   text-shadow: -0.5px 0 0.1px black, 0 0.5px 0.1px black, 0.5px 0 0.1px black,
     0 -0.5px 0.1px black;
+
+  // .imagesContainer {
+  //   display: grid;
+  //   margin-left: 2em;
+  //   grid-template-columns: 1fr 1fr 1fr;
+  //   grid-gap: 1em;
+  //   max-width: 800px;
+  // }
 }
 .textCard {
   max-width: 100%;
-  margin: 1rem 8rem;
+  margin: 2rem 8rem;
 
   @media only screen and (max-width: 800px) {
     margin: 2rem 2rem;
