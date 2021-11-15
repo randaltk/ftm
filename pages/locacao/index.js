@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import locacaoMock from "../../mocks/locacaoMock";
+import AlugarFTM from "../../components/AlugarFTM";
 export default function Locacao() {
   const router = useRouter();
   const routeChange = (
@@ -41,7 +42,9 @@ export default function Locacao() {
             <Link href="/locacao">Locação</Link>
           </li>
         </div>
-
+        <div className={styles.remove}>
+          <AlugarFTM />
+        </div>
         <div className={styles.cardsLocacao}>
           {locacaoMock.map((locacao, key) => (
             <div
