@@ -14,7 +14,8 @@ export default function Locacao() {
     imagem,
     descricao,
     fichaTecnica,
-    imagemTabela
+    imagemTabela,
+    imagemArq
   ) => {
     e.preventDefault();
 
@@ -27,6 +28,7 @@ export default function Locacao() {
         descricao: descricao,
         fichaTecnica: JSON.stringify(fichaTecnica),
         imagemTabela: imagemTabela,
+        imagemArq: imagemArq,
       },
     });
   };
@@ -57,7 +59,8 @@ export default function Locacao() {
                   locacao.imagem,
                   locacao.descricao,
                   locacao.fichaTecnica,
-                  locacao.imagemTabela
+                  locacao.imagemTabela,
+                  locacao.imagemArq
                 )
               }
               key={key}

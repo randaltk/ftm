@@ -39,33 +39,30 @@ function Details(props) {
             {props.router.query.fichaTecnica !== undefined ? (
               <ul className={styles.detail}>
                 <li className={styles.topic}>
-                  Pressao: {JSON.parse(props.router.query.fichaTecnica).pressao}
+                  {JSON.parse(props.router.query.fichaTecnica).pressao}
                 </li>
                 <li className={styles.topic}>
-                  Saidas: {JSON.parse(props.router.query.fichaTecnica).saidas}
+                  {JSON.parse(props.router.query.fichaTecnica).saidas}
                 </li>
                 <li className={styles.topic}>
-                  Acionamento:{" "}
                   {JSON.parse(props.router.query.fichaTecnica).acionamento}
                 </li>
                 <li className={styles.topic}>
-                  Motor: {JSON.parse(props.router.query.fichaTecnica).motor}
+                  {JSON.parse(props.router.query.fichaTecnica).motor}
                 </li>
                 <li className={styles.topic}>
-                  Tensao: {JSON.parse(props.router.query.fichaTecnica).tensao}
+                  {JSON.parse(props.router.query.fichaTecnica).tensao}
                 </li>
                 <li className={styles.topic}>
-                  Peso: {JSON.parse(props.router.query.fichaTecnica).peso}
+                  {JSON.parse(props.router.query.fichaTecnica).peso}
                 </li>
                 <li className={styles.topic}>
-                  Dimensoes:{" "}
                   {JSON.parse(props.router.query.fichaTecnica).dimensoes}
                 </li>
                 <li className={styles.topic}>
-                  Vazao: {JSON.parse(props.router.query.fichaTecnica).vazao}
+                  {JSON.parse(props.router.query.fichaTecnica).vazao}
                 </li>
                 <li className={styles.topic}>
-                  Capacidade:{" "}
                   {JSON.parse(props.router.query.fichaTecnica).capacidade}
                 </li>
               </ul>
@@ -75,6 +72,16 @@ function Details(props) {
           </div>
 
           <div style={{ textAlign: "center", marginTop: "2em" }}>
+            <Image
+              src={
+                props.router.query.imagemArq !== undefined
+                  ? props.router.query.imagemArq
+                  : "/"
+              }
+              alt={props.router.query.nome}
+              width={800}
+              height={440}
+            />
             <Image
               src={
                 props.router.query.imagem !== undefined

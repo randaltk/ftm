@@ -14,7 +14,8 @@ export default function Vendas() {
     imagem,
     descricao,
     fichaTecnica,
-    imagemTabela
+    imagemTabela,
+    imagemArq
   ) => {
     e.preventDefault();
 
@@ -27,6 +28,7 @@ export default function Vendas() {
         descricao: descricao,
         fichaTecnica: JSON.stringify(fichaTecnica),
         imagemTabela: imagemTabela,
+        imagemArq: imagemArq,
       },
     });
   };
@@ -57,7 +59,8 @@ export default function Vendas() {
                   locacao.imagem,
                   locacao.descricao,
                   locacao.fichaTecnica,
-                  locacao.imagemTabela
+                  locacao.imagemTabela,
+                  locacao.imagemArq
                 )
               }
               key={key}

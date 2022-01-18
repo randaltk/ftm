@@ -336,7 +336,7 @@
 
 .cardsContentImg {
   max-width: 100%;
-  object-fit: cover;
+  object-fit: fill;
   position: inherit;
   z-index: -1;
 }
