@@ -142,7 +142,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div
+            {/* <div
               className={styles.cardsContent}
               onClick={(e) => routeChange(e, "assistencia")}
             >
@@ -224,7 +224,7 @@ export default function Home() {
                   mecânico, elétrico, pneumático e manual.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>

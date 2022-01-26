@@ -25,7 +25,7 @@ const Backdrop = ({ click, show }) => {
               <li className={styles.navItem}>
                 <Link href="/vendas">Vendas</Link>
               </li>
-              <li className={styles.navItem}>
+              {/* <li className={styles.navItem}>
                 <Link href="/calibracao">Calibração</Link>
               </li>
 
@@ -39,7 +39,7 @@ const Backdrop = ({ click, show }) => {
 
               <li className={styles.navItem}>
                 <Link href="/treinamentos">Treinamentos</Link>
-              </li>
+              </li> */}
               <li className={styles.navItem}>
                 <Link href="/contato">Contato</Link>
               </li>

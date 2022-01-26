@@ -30,7 +30,7 @@ const Header = ({ click }) => {
                     <Link href="/vendas">Vendas</Link>
                   </li>
 
-                  <div className={styles.dropdown}>
+                  {/* <div className={styles.dropdown}>
                     <li className={styles.navItem}>Serviços</li>
                     <div className={styles.dropdownContent}>
                       <ul>
@@ -53,7 +53,7 @@ const Header = ({ click }) => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
 
                   <li className={styles.navItem}>
                     <Link href="/contato">Contato</Link>
