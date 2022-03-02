@@ -177,7 +177,10 @@ const Header = ({ click }) => {
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/v1643132201/FTM/vendas/Sem_t%C3%ADtulo_elt6rg.png"
             />
-
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1646250935/FTM/vendas/WhatsApp_Image_2022-03-02_at_16.51.07_1_fjv6vo.jpg"
+            />
             <img
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png"

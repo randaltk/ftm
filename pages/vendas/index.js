@@ -3,7 +3,7 @@ import styles from "../../styles/Home.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import locacaoMock from "../../mocks/locacaoMock";
+import vendaMock from "../../mocks/vendaMock";
 import ComprarFTM from "../../components/ComprarFTM";
 export default function Vendas() {
   const router = useRouter();
@@ -48,7 +48,7 @@ export default function Vendas() {
           <ComprarFTM />
         </div>
         <div className={styles.cardsLocacao}>
-          {locacaoMock.map((locacao, key) => (
+          {vendaMock.map((locacao, key) => (
             <div
               className={styles.cardsContent}
               onClick={(e) =>

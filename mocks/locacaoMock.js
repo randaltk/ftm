@@ -135,7 +135,7 @@ const locacaoMock = [
     id: 5,
     nome: "Bomba Hidráulica para Torque",
     imagem:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1646245158/FTM/vendas/WhatsApp_Image_2021-11-15_at_11.18.25_itvrnf.jpg",
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646250935/FTM/vendas/WhatsApp_Image_2022-03-02_at_16.51.07_1_fjv6vo.jpg",
 
     descricao: `Bomba Hidráulica com acionamento elétrico para uso em até quatro chaves de torque e Link Hidráulico simultâneos para serviço de torqueamento.
     Com manômetro calibrado rastreado RBC
