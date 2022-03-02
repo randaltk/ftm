@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "../styles/globals.scss";
 import styles from "../styles/Home.module.scss";
 import Head from "next/head";
@@ -13,6 +13,7 @@ import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
   const [sideToggle, setSideToggle] = useState(false);
+
   return (
     <>
       <Head>

@@ -1,12 +1,46 @@
 import Image from "next/image";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
-import React from "react";
 import styles from "../../styles/Header.module.scss";
 
 const Header = ({ click }) => {
+  var images = [
+    "https://res.cloudinary.com/aguadeira/image/upload/v1646225142/FTM/vendas/pexels-kindel-media-9800117_jra0x2.jpg",
+    "https://res.cloudinary.com/aguadeira/image/upload/v1646229652/FTM/vendas/pexels-dimitry-anikin-4994495_xjqvao.jpg",
+    "https://res.cloudinary.com/aguadeira/image/upload/v1646229723/FTM/vendas/pexels-pixabay-33192_esdciu.jpg",
+    "https://res.cloudinary.com/aguadeira/image/upload/v1646243362/FTM/vendas/pexels-magda-ehlers-2569842_gn5y31.jpg",
+  ];
+
+  const sliderRef = useRef();
+
+  useEffect(() => {
+    var i = 0;
+    setInterval(function () {
+      sliderRef.current.style.backgroundImage = "url(" + images[i] + ")";
+      i = i + 1;
+      if (i == images.length) {
+        i = 0;
+      }
+    }, 5000);
+  }, [sliderRef]);
+
+  function currentSlide(number) {
+    if (number === 1) {
+      sliderRef.current.style.backgroundImage = "url(" + images[0] + ")";
+    }
+    if (number === 2) {
+      sliderRef.current.style.backgroundImage = "url(" + images[1] + ")";
+    }
+    if (number === 3) {
+      sliderRef.current.style.backgroundImage = "url(" + images[2] + ")";
+    }
+    if (number === 4) {
+      sliderRef.current.style.backgroundImage = "url(" + images[3] + ")";
+    }
+  }
   return (
     <>
-      <header className={styles.headerStyle}>
+      <header className={styles.headerStyle} ref={sliderRef}>
         <div className={styles.linearGradient}>
           <div className={styles.headerNavigation}>
             <div className={styles.headerMenu}>
@@ -62,7 +96,6 @@ const Header = ({ click }) => {
               </nav>
             </div>
           </div>
-
           <section className={styles.headerContent}>
             <div className={styles.textCard}>
               <h2 className={styles.title}>
@@ -104,10 +137,30 @@ const Header = ({ click }) => {
                 height={350.38}
               />
             </div> */}
+
+            <div className={styles.dotBox}>
+              <span
+                className={styles.dot}
+                onClick={() => currentSlide(1)}
+              ></span>
+              <span
+                className={styles.dot}
+                onClick={() => currentSlide(2)}
+              ></span>
+              <span
+                className={styles.dot}
+                onClick={() => currentSlide(3)}
+              ></span>
+              <span
+                className={styles.dot}
+                onClick={() => currentSlide(4)}
+              ></span>
+            </div>
           </section>
         </div>
       </header>
     </>
   );
 };
+
 export default Header;

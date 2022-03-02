@@ -1,7 +1,7 @@
 const locacaoMock = [
   {
     id: 1,
-    nome: "F-10",
+    nome: "Linha F",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1642427393/FTM/vendas/ftm-f_3_kuu0uu.jpg",
 
@@ -28,7 +28,7 @@ const locacaoMock = [
   },
   {
     id: 2,
-    nome: "FCH",
+    nome: "Linha FCH",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1642440765/FTM/vendas/fch_pdkaxz.jpg",
     descricao: `Ferramenta utilizada quando se requer o torque controlado dos parafusos, muito utilizado para o aperto de flanges, trocadores de calor, gruas, montagem de máquinas industriais. 
@@ -78,7 +78,7 @@ const locacaoMock = [
   },
   {
     id: 4,
-    nome: "FLCT",
+    nome: "Linha FLCT",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1643132201/FTM/vendas/Sem_t%C3%ADtulo_elt6rg.png",
 
@@ -109,7 +109,7 @@ const locacaoMock = [
     id: 4,
     nome: "Tensionador WIND",
     imagem:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1643213933/FTM/vendas/Sem_t%C3%ADtulo_3_kgopva.png",
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png",
 
     descricao: `Os Tensionadores FTM da linha WIND foram projetados para atender a indústria de geração de energia eólica, vapor e gás, principalmente na indústria eólica.
     Os Tensionadores WIND tem alto desempenho, alta resistência, durabilidade e facilidade no uso do equipamento.
@@ -131,6 +131,29 @@ const locacaoMock = [
       "https://res.cloudinary.com/aguadeira/image/upload/v1643214100/FTM/vendas/Sem_t%C3%ADtulo_4_pzncz8.png",
     imagemArq: "/",
   },
-  ,
+  {
+    id: 5,
+    nome: "Bomba Hidráulica para Torque",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646223951/FTM/vendas/WhatsApp_Image_2021-11-15_at_11.18.25_1_1_itre1y.jpg",
+
+    descricao: `Bomba Hidráulica com acionamento elétrico para uso em até quatro chaves de torque e Link Hidráulico simultâneos para serviço de torqueamento.
+    Com manômetro calibrado rastreado RBC
+    `,
+    fichaTecnica: {
+      pressao: "Pressão: 700 bar 10.000 PSI",
+      saidas: "Saídas: 4",
+      acionamento: "Acionamento: Elétrico",
+      motor: "Motor Elétrico: 1 1/8 HP 12.000 RPM",
+      tensao: "Tensão: 220V",
+      peso: "Peso: 36 kg",
+      dimensoes: "Dimensões: AxLxC = 460x353x333 mm",
+      vazao: "Vazão: 1,02 l/min",
+      capacidade: "Capacidade Reservatório: 9,46 litros",
+    },
+    imagemTabela:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1643214100/FTM/vendas/Sem_t%C3%ADtulo_4_pzncz8.png",
+    imagemArq: "/",
+  },
 ];
 export default locacaoMock;
