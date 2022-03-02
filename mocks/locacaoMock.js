@@ -1,33 +1,6 @@
 const locacaoMock = [
   {
     id: 1,
-    nome: "Linha F",
-    imagem:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1642427393/FTM/vendas/ftm-f_3_kuu0uu.jpg",
-
-    descricao: `O Link é utilizado quando há necessidade de torque controlado em parafuso em áreas de difícil acesso e pouco espaço, esta ferramenta é muito utilizada em plataformas de petróleo, usina hidrelétrica e gasodutos 
-    O link é versátil suporta uma vasta gama de sextavados com cassetes intercambiáveis . Eles entregam torque de precisão durante a montagem. 
-    `,
-    fichaTecnica: {
-      pressao: "Design Compacto",
-      saidas: "Melhor na indústria relação resistência-peso ",
-      acionamento: "Pressão Máxima 700 bar",
-      motor: "Faixa de torque 160 à 21.336 N.m ",
-      tensao: "Certificado de calibração rastreado RBC ",
-      peso: "Link propulsor Hidráulico de alto desempenho oferece um design compacto, construído em liga de alumínio-titânio alta resistência para maior intensidade e durabilidade da ferramenta, minimizando o peso.",
-      dimensoes:
-        "Swivel podendo ser ajustado em 360° e 180° grau facilitando a conexão da mangueira permitindo ajuste fácil em espaços confinados, eliminando as dobras. ",
-      vazao: "1,02 l/min",
-      capacidade:
-        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário. ",
-    },
-    imagemTabela: ` 
-    https://res.cloudinary.com/aguadeira/image/upload/v1642437739/FTM/vendas/tabelafh_1_q7knuj.png`,
-    imagemArq:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1642428148/FTM/vendas/ftm-f-arq_ft5t4d.jpg",
-  },
-  {
-    id: 2,
     nome: "Linha FCH",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1642440765/FTM/vendas/fch_pdkaxz.jpg",
@@ -54,30 +27,34 @@ const locacaoMock = [
       "https://res.cloudinary.com/aguadeira/image/upload/v1642441075/FTM/vendas/fcharq_ylncw3.jpg",
   },
   {
-    id: 3,
-    nome: "Multiplicador de Torque",
+    id: 2,
+    nome: "Linha F",
     imagem:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1643071441/FTM/vendas/ftmumiljha_1_r9ftdo.png",
-    descricao: `Equipamento utilizado nos serviços de aparafusamento com grande eficiência e design compacto, alcançando torque alto na saída a partir de torque baixo na entrada.
-    Multiplicador estilo LINK com o melhor para a indústria em relação a característica Resistencia-Peso com trava anti-retorno para proteção do operador.
-    Os Multiplicadores FTM tem a capacidade de multiplicar o torque de entrada em 4:1 para o torque de saída. `,
+      "https://res.cloudinary.com/aguadeira/image/upload/v1642427393/FTM/vendas/ftm-f_3_kuu0uu.jpg",
+
+    descricao: `O Link é utilizado quando há necessidade de torque controlado em parafuso em áreas de difícil acesso e pouco espaço, esta ferramenta é muito utilizada em plataformas de petróleo, usina hidrelétrica e gasodutos 
+    O link é versátil suporta uma vasta gama de sextavados com cassetes intercambiáveis . Eles entregam torque de precisão durante a montagem. 
+    `,
     fichaTecnica: {
       pressao: "Design Compacto",
       saidas: "Melhor na indústria relação resistência-peso ",
-      acionamento: "Entrada Máxima de 340 N.m à Saída máxima de 1.360 N.m",
-      motor: "Fator de Multiplicação 4:1 ",
-      tensao: "Certificado de calibração rastreado RBC",
-      peso: "Entrada (Quadrado) ½” / Saída (Sextavado) 46 mm",
+      acionamento: "Pressão Máxima 700 bar",
+      motor: "Faixa de torque 160 à 21.336 N.m ",
+      tensao: "Certificado de calibração rastreado RBC ",
+      peso: "Link propulsor Hidráulico de alto desempenho oferece um design compacto, construído em liga de alumínio-titânio alta resistência para maior intensidade e durabilidade da ferramenta, minimizando o peso.",
       dimensoes:
-        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário",
+        "Swivel podendo ser ajustado em 360° e 180° grau facilitando a conexão da mangueira permitindo ajuste fácil em espaços confinados, eliminando as dobras. ",
+      vazao: "1,02 l/min",
+      capacidade:
+        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário. ",
     },
-    imagemTabela:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1643131392/FTM/vendas/ftm2lte22_pvd0lo.png",
+    imagemTabela: ` 
+    https://res.cloudinary.com/aguadeira/image/upload/v1642437739/FTM/vendas/tabelafh_1_q7knuj.png`,
     imagemArq:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1643125866/FTM/vendas/ftm2lalala_qtfwmz.png",
+      "https://res.cloudinary.com/aguadeira/image/upload/v1642428148/FTM/vendas/ftm-f-arq_ft5t4d.jpg",
   },
   {
-    id: 4,
+    id: 3,
     nome: "Linha FLCT",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1643132201/FTM/vendas/Sem_t%C3%ADtulo_elt6rg.png",
@@ -104,10 +81,33 @@ const locacaoMock = [
     imagemArq:
       "https://res.cloudinary.com/aguadeira/image/upload/v1643132546/FTM/vendas/Sem_t%C3%ADtulo_1_jpdnuk.png",
   },
+  {
+    id: 4,
+    nome: "Multiplicador de Torque",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1643071441/FTM/vendas/ftmumiljha_1_r9ftdo.png",
+    descricao: `Equipamento utilizado nos serviços de aparafusamento com grande eficiência e design compacto, alcançando torque alto na saída a partir de torque baixo na entrada.
+    Multiplicador estilo LINK com o melhor para a indústria em relação a característica Resistencia-Peso com trava anti-retorno para proteção do operador.
+    Os Multiplicadores FTM tem a capacidade de multiplicar o torque de entrada em 4:1 para o torque de saída. `,
+    fichaTecnica: {
+      pressao: "Design Compacto",
+      saidas: "Melhor na indústria relação resistência-peso ",
+      acionamento: "Entrada Máxima de 340 N.m à Saída máxima de 1.360 N.m",
+      motor: "Fator de Multiplicação 4:1 ",
+      tensao: "Certificado de calibração rastreado RBC",
+      peso: "Entrada (Quadrado) ½” / Saída (Sextavado) 46 mm",
+      dimensoes:
+        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário",
+    },
+    imagemTabela:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1643131392/FTM/vendas/ftm2lte22_pvd0lo.png",
+    imagemArq:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1643125866/FTM/vendas/ftm2lalala_qtfwmz.png",
+  },
 
   {
     id: 4,
-    nome: "Tensionador WIND",
+    nome: "Tensionador",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png",
 
@@ -135,7 +135,7 @@ const locacaoMock = [
     id: 5,
     nome: "Bomba Hidráulica para Torque",
     imagem:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1646223951/FTM/vendas/WhatsApp_Image_2021-11-15_at_11.18.25_1_1_itre1y.jpg",
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646245158/FTM/vendas/WhatsApp_Image_2021-11-15_at_11.18.25_itvrnf.jpg",
 
     descricao: `Bomba Hidráulica com acionamento elétrico para uso em até quatro chaves de torque e Link Hidráulico simultâneos para serviço de torqueamento.
     Com manômetro calibrado rastreado RBC
@@ -151,8 +151,76 @@ const locacaoMock = [
       vazao: "Vazão: 1,02 l/min",
       capacidade: "Capacidade Reservatório: 9,46 litros",
     },
-    imagemTabela:
-      "https://res.cloudinary.com/aguadeira/image/upload/v1643214100/FTM/vendas/Sem_t%C3%ADtulo_4_pzncz8.png",
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
+
+  {
+    id: 6,
+    nome: "Torquímetro Manual",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646246131/FTM/vendas/torquimetro-manual_mglevd.jpg",
+
+    descricao: `Usado para ajustar precisamente o torque de um parafuso em uma porca.
+    Possui sistema de encaixe do quadrado que permite a utilização do torquímetro no sentido horário e anti-horário
+    Sinal acústico indicando o final do torque.
+    Possui sistema de segurança contra desregulagem acidental durante a operação de torque
+    Acompanha estojo e manual de operação.
+    Certificado de calibração rastreado RBC
+    `,
+    fichaTecnica: {
+      pressao: "Acompanha estojo e manual de operação",
+      saidas: "Certificado de calibração rastreado RBC",
+      acionamento: "Dados técnicos",
+      motor: "Capacidade de até 3000 Nm",
+      tensao: "Quadrado: 1/4, 3/8 , 1/2 , 3/4 , 1 e 1.1/2",
+    },
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
+
+  {
+    id: 7,
+    nome: "Máquinas de Corte e Bisel",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646246769/FTM/vendas/Maquinas-de-Corte-e-Bisel_zzyzsb.jpg",
+
+    descricao: `Máquina realiza corte a frio para usinagem de tubos corte e bisel pode ser montada em tubulação com as seguintes vantagens:
+    `,
+    fichaTecnica: {
+      pressao: "Modelo Bi-partida",
+      saidas: "Acionamento Pneumático",
+      acionamento: "Consumo de ar 7 bar",
+      motor: "Espessura Máxima de tubo 3",
+      tensao:
+        "Máquinas para diferente diâmetro de tubo: 2 à 6 / 8 à 14 / 16 à 22 / 24 à 30",
+    },
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
+
+  {
+    id: 8,
+    nome: "Faceadora de Flanges",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646247663/FTM/vendas/Faceadora-de-Flanges_vhzad0.jpg",
+
+    descricao: `Esta máquina realiza chanfro em tubulação de diversos diâmetros, podendo facear o tubo internamente.
+    A faceadora realiza bisel de diferentes tipos U, V, J de linha de solda inclinada. A faceadora pode ser utilizada em tubulações de diferentes composições, aço de carbono, aço
+    inoxidável e tubos de aço-liga, mas também pode tratar a flange convexo soldado e flange simples. O ângulo de processamento é escolhido arbitrariamente, a faca pode ser ajustada
+    automaticamente.
+    Os serviços mais comuns para a faceadora são:
+    `,
+    fichaTecnica: {
+      pressao: "Acionamento Pneumático",
+      saidas: "Consumo de Ar 7 bar",
+      acionamento:
+        "Modelos e Capacidade: FF 12 Capacidade de 1 à 3 / FF 24 capacidade de 4 à 16; FF 40 capacidade de 18 à 60",
+      motor:
+        "Utilização: Ranhura Expiral - Concêntrico e liso - Casco - Boleado - Carretel Boca de Visita - Flanges - Espelho",
+      tensao: "",
+    },
+    imagemTabela: "/",
     imagemArq: "/",
   },
 ];

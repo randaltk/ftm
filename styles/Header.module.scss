@@ -11,6 +11,7 @@
 
 .dotBox {
   text-align: center;
+  margin-bottom: 1em;
 }
 .dot {
   cursor: pointer;
@@ -187,6 +188,23 @@
   //   grid-gap: 1em;
   //   max-width: 800px;
   // }
+}
+
+.container {
+  display: flex;
+  margin-top: -18em;
+  margin-left: 29em;
+  width: 30%;
+  .item {
+    max-width: 9em;
+    margin-bottom: 5em;
+    border-radius: 50%;
+    margin-left: 1em;
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
 }
 .textCard {
   max-width: 100%;

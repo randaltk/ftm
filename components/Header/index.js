@@ -157,6 +157,32 @@ const Header = ({ click }) => {
               ></span>
             </div>
           </section>
+          <div className={styles.container}>
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1642427393/FTM/vendas/ftm-f_3_kuu0uu.jpg"
+            />
+
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1642440765/FTM/vendas/fch_pdkaxz.jpg"
+            />
+
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1643071441/FTM/vendas/ftmumiljha_1_r9ftdo.png"
+            />
+
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1643132201/FTM/vendas/Sem_t%C3%ADtulo_elt6rg.png"
+            />
+
+            <img
+              className={styles.item}
+              src="https://res.cloudinary.com/aguadeira/image/upload/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png"
+            />
+          </div>
         </div>
       </header>
     </>

@@ -36,6 +36,7 @@ function MyApp({ Component, pageProps }) {
             src="https://res.cloudinary.com/aguadeira/image/upload/v1636221969/FTM/logo-whatsapp-png-46041_1_vtrevq.png"
           />
         </ReactWhatsapp>
+
         <Backdrop show={sideToggle} click={() => setSideToggle(false)} />
         <Component {...pageProps} />
         <Footer />
