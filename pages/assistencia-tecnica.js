@@ -34,7 +34,7 @@ export default function AssistenciaTecnica() {
           <div style={{ marginTop: "6em" }}>
             <div className={styles.contentBanner}>
               <Image
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/v1648581119/FTM/calibra%C3%A7%C3%A3o_qqp1ku.jpg"
                 alt="Calibração"
                 width={438.08}
                 height={350.38}
@@ -56,7 +56,7 @@ export default function AssistenciaTecnica() {
               <h2 className={styles.title}>Manutenção</h2>
               <div className={styles.contentBanner}>
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648574812/FTM/assis-tec-2_gqi3u4.jpg"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648581940/FTM/WhatsApp_Image_2022-03-29_at_16.23.58_pvk2br.jpg"
                   alt="Manutenção"
                   width={905}
                   height={768}
@@ -69,7 +69,7 @@ export default function AssistenciaTecnica() {
                 capacidade fornecemos peças e serviços.) - Multiplicadores de
                 torque - Tensionadores hidráulicos -Torqueadores Elétricos ou
                 pneumáticos , Torquímetros de estalo, Unidades Hidraulicas
-                Elétricas e Pneumáticas (Bombas ) para chave de torque
+                Elétricas e Pneumáticas (Bombas ) para chave de torque.
               </p>
             </div>
             <div className={styles.sessaoContent} style={{ marginTop: "12em" }}>
@@ -103,7 +103,7 @@ export default function AssistenciaTecnica() {
               <h2 className={styles.title}>Projetos Especiais</h2>
               <div className={styles.contentBanner}>
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648579992/FTM/projetos-especiais-3_1_lxqvgf.jpg"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648581302/FTM/projetos-especiais-2_1_wlrbus.jpg"
                   alt="Projetos Especiais"
                   width={958}
                   height={768}
@@ -112,7 +112,7 @@ export default function AssistenciaTecnica() {
 
               <p className={styles.description}>
                 Projetamos e fabricamos projetos especiais sob encomenda de
-                acordo com as necessidades de aplicação
+                acordo com as necessidades de aplicação.
               </p>
             </div>
           </div>

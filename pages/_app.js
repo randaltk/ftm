@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "../styles/globals.scss";
 import styles from "../styles/Home.module.scss";
+import "react-image-gallery/styles/scss/image-gallery.scss";
 import Head from "next/head";
 import ReactWhatsapp from "react-whatsapp";
 // Components
