@@ -18,12 +18,8 @@ export default function AssistenciaTecnica() {
           </div>
         </section>
 
-        <section className={styles.sessaoSobre}>
-          <div className={styles.sessaoContent} style={{ marginTop: "6em" }}>
-            <div className={styles.contentBanner}>
-              <Image src="/" alt="Inspeção" width={905} height={768} />
-            </div>
-
+        <section className={styles.sessaoAssistencia}>
+          <div className={styles.sessaoContent}>
             <p className={styles.description}>
               A FTM conta com uma equipe técnica altamente qualificada para
               manutenção de máquinas e ferramentas do segmento hidráulico,
@@ -35,7 +31,7 @@ export default function AssistenciaTecnica() {
               foto evidenciando o problema e a solução do mesmo.
             </p>
           </div>
-          <div>
+          <div style={{ marginTop: "6em" }}>
             <div className={styles.contentBanner}>
               <Image
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
@@ -68,10 +64,15 @@ export default function AssistenciaTecnica() {
               </div>
 
               <p className={styles.description}>
-                Prestamos assistência técnica e manutenção{" "}
+                Prestamos assistência técnica e manutenção em: - Chaves de
+                torque e link`s hidraulicos (independente da marca, modelo ou
+                capacidade fornecemos peças e serviços.) - Multiplicadores de
+                torque - Tensionadores hidráulicos -Torqueadores Elétricos ou
+                pneumáticos , Torquímetros de estalo, Unidades Hidraulicas
+                Elétricas e Pneumáticas (Bombas ) para chave de torque
               </p>
             </div>
-            <div className={styles.sessaoContent} style={{ marginTop: "16em" }}>
+            <div className={styles.sessaoContent} style={{ marginTop: "12em" }}>
               <div className={styles.borderStyle}></div>
               <h2 className={styles.title}>Treinamentos</h2>
               <div className={styles.contentBanner}>
@@ -83,16 +84,28 @@ export default function AssistenciaTecnica() {
                 />
               </div>
 
-              <p className={styles.description}>Treinamentos</p>
+              <p className={styles.description}>
+                A FTM oferece treinamento operacional com o objetivo de
+                capacitar operadores para utilização de equipamentos hidráulicos
+                e acessórios (chaves de torque, unidades de bombeio,
+                tensionadores hidraulicos,multiplicadores, torquímetros de
+                estalo, etc). O treinamento traz inúmeros benefícios para sua
+                empresa, aprimora o desempenho do trabalhador e do equipamento,
+                reduz o tempo de operação e oferece segurança ao operador. Os
+                alunos recebem material de apoio com o conteúdo das aulas e
+                complementações. O curso é desenvolvido através de apresentações
+                multimídia, discussões e prática de conceitos e exercícios. Ao
+                final do curso, o aluno recebe certificação individual.
+              </p>
             </div>
-            <div className={styles.sessaoContent} style={{ marginTop: "20em" }}>
+            <div className={styles.sessaoContent} style={{ marginTop: "10em" }}>
               <div className={styles.borderStyle}></div>
               <h2 className={styles.title}>Projetos Especiais</h2>
               <div className={styles.contentBanner}>
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648575289/FTM/projetos-especiais-2_penzli.jpg"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1648579992/FTM/projetos-especiais-3_1_lxqvgf.jpg"
                   alt="Projetos Especiais"
-                  width={905}
+                  width={958}
                   height={768}
                 />
               </div>

@@ -80,3 +80,7 @@ dropdown:
                       </ul>
                     </div>
                   </div>
+
+Prestamos assistência técnica e manutenção em: - Chaves de torque e
+link`s hidraulicos (independente da marca, modelo ou capacidade
+fornecemos peças e serviços.) - Multiplicadores de torque - Tensionadores hidráulicos -Torqueadores Elétricos ou pneumáticos , Torquímetros de estalo, Unidades Hidraulicas Elétricas e Pneumáticas (Bombas ) para chave de torque
