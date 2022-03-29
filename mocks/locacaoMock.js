@@ -223,5 +223,69 @@ const locacaoMock = [
     imagemTabela: "/",
     imagemArq: "/",
   },
+
+  {
+    id: 8,
+    nome: "Torqueadeira Rotativa Elétrica",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1646663366/FTM/vendas/Torqueadeira-Rotativa-Eletrica_sjufmq.jpg",
+
+    descricao: `A torqueadeira rotativa aplica o torque no parafuso de forma rotativa e contínua garantindo a maior rapidez na aplicação de torque controlado.
+    Fácil operação, pois o torque é pré programado.  
+    Máquina leve e compacta de fácil transporte.
+    É um sistema eletrônico aferido que atua sobre um sistema elétrico que impulsiona o conjunto de redução mecânica planetária transmitindo o torque para o drive quadrado.
+    `,
+    fichaTecnica: {
+      pressao: "Capacidade: 125 à 4500 Nm",
+      saidas: "Peso: 12 kg",
+      acionamento: "Drive quadrado: 1",
+      motor: "Utilizados em:",
+      tensao: "Petroquímicas (Refinária)",
+      peso: "Mineração",
+      dimensoes: "Ferrovias",
+      vazao: "Indústria de Papel e Celulose",
+      capacidade: "Indústria Automobilística",
+    },
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
+
+  {
+    id: 8,
+    nome: "Corta Porca Hidráulico",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1647085233/FTM/vendas/Corta-porca-hidraulico_i1vvkk.jpg",
+
+    descricao: `Corta Porcas Hidráulico fácil manuseio compacto e leve altamente resistente
+    Não deve ser utilizados em porca quadrado, a dureza máxima do material a ser cortado é HRc-44.
+    `,
+    fichaTecnica: {
+      pressao: "Sextavado: 24 à 32 mm",
+      saidas: "Capacidade: 15 toneladas",
+      acionamento: "Peso: 3 kg",
+    },
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
+
+  {
+    id: 9,
+    nome: "Chave de Impacto Pneumática",
+    imagem:
+      "https://res.cloudinary.com/aguadeira/image/upload/v1648562006/FTM/vendas/Chave-de-Impacto-Pneumatica_papsdt.jpg",
+    descricao: `Ferramenta geralmente utilizada para apertar e soltar porcas de segurança. Este tipo de ferramenta é desenvolvida especialmente para proporcionar a máxima transmissão da energia
+    de impacto para a porca sendo muito útil para a manipulação de parafusos oxidados, entre outras utilizações.
+    `,
+    fichaTecnica: {
+      pressao: "Encaixe Quadrado: 1",
+      saidas: "Consumo de Ar: 6 bar",
+      acionamento: "Mangueira: 3/4",
+      motor: "Peso: 16 kg",
+      tensao: "Capacidade: 500 à 2500 Nm",
+      peso: "RPM: 3700",
+    },
+    imagemTabela: "/",
+    imagemArq: "/",
+  },
 ];
 export default locacaoMock;

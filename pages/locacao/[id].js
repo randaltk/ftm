@@ -5,7 +5,6 @@ import { withRouter } from "next/router";
 import Image from "next/image";
 
 function Details(props) {
-  console.log("props", props);
   return (
     <>
       <section className={styles.sessaoLocacao}>
@@ -62,7 +61,13 @@ function Details(props) {
                 <li className={styles.topic}>
                   {JSON.parse(props.router.query.fichaTecnica).vazao}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    props.router.query.fichaTecnica.capacidade === ""
+                      ? ""
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).capacidade}
                 </li>
               </ul>
@@ -72,26 +77,27 @@ function Details(props) {
           </div>
 
           <div style={{ textAlign: "center", marginTop: "2em" }}>
-            <Image
-              src={
-                props.router.query.imagemArq !== undefined
-                  ? props.router.query.imagemArq
-                  : "/"
-              }
-              alt={props.router.query.nome}
-              width={800}
-              height={440}
-            />
-            <Image
-              src={
-                props.router.query.imagem !== undefined
-                  ? props.router.query.imagemTabela
-                  : "/"
-              }
-              alt={props.router.query.nome}
-              width={800}
-              height={440}
-            />
+            {props.router.query.imagemArq !== "/" ? (
+              <Image
+                src={props.router.query.imagemArq}
+                alt={props.router.query.nome}
+                width={800}
+                height={440}
+              />
+            ) : (
+              ""
+            )}
+
+            {props.router.query.imagemArq !== "/" ? (
+              <Image
+                src={props.router.query.imagemTabela}
+                alt={props.router.query.nome}
+                width={800}
+                height={440}
+              />
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </section>

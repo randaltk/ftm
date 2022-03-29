@@ -5,7 +5,6 @@ import { withRouter } from "next/router";
 import Image from "next/image";
 
 function Details(props) {
-  console.log("props", props);
   return (
     <>
       <section className={styles.sessaoLocacao}>
@@ -72,26 +71,27 @@ function Details(props) {
           </div>
 
           <div style={{ textAlign: "center", marginTop: "2em" }}>
-            <Image
-              src={
-                props.router.query.imagemArq !== undefined
-                  ? props.router.query.imagemArq
-                  : "/"
-              }
-              alt={props.router.query.nome}
-              width={800}
-              height={440}
-            />
-            <Image
-              src={
-                props.router.query.imagemTabela !== undefined
-                  ? props.router.query.imagemTabela
-                  : "/"
-              }
-              alt={props.router.query.nome}
-              width={760}
-              height={358}
-            />
+            {props.router.query.imagemArq !== "/" ? (
+              <Image
+                src={props.router.query.imagemArq}
+                alt={props.router.query.nome}
+                width={800}
+                height={440}
+              />
+            ) : (
+              ""
+            )}
+
+            {props.router.query.imagemTabela !== "/" ? (
+              <Image
+                src={props.router.query.imagemTabela}
+                alt={props.router.query.nome}
+                width={760}
+                height={358}
+              />
+            ) : (
+              ""
+            )}
           </div>
         </div>
       </section>

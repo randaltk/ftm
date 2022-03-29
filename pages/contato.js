@@ -12,7 +12,6 @@ export default function Contato() {
               alt="Entre em contato"
               width={940}
               height={627}
-              alt="Contato"
             />
           </div>
 

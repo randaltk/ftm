@@ -22,7 +22,7 @@ const Header = ({ click }) => {
         i = 0;
       }
     }, 5000);
-  }, [sliderRef]);
+  }, []);
 
   function currentSlide(number) {
     if (number === 1) {
@@ -64,30 +64,9 @@ const Header = ({ click }) => {
                     <Link href="/vendas">Vendas</Link>
                   </li>
 
-                  <div className={styles.dropdown}>
-                    <li className={styles.navItem}>Serviços</li>
-                    <div className={styles.dropdownContent}>
-                      <ul>
-                        <li className={styles.navItem}>
-                          <Link href="/calibracao">Calibração</Link>
-                        </li>
-
-                        <li className={styles.navItem}>
-                          <Link href="/manutencao">Manutenção</Link>
-                        </li>
-
-                        <li className={styles.navItem}>
-                          <Link href="/assistencia-tecnica">
-                            Assistência técnica
-                          </Link>
-                        </li>
-
-                        <li className={styles.navItem}>
-                          <Link href="/treinamentos">Treinamentos</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <li className={styles.navItem}>
+                    <Link href="/assistencia-tecnica">Assistência Técnica</Link>
+                  </li>
                   <li className={styles.navItem}>
                     <Link href="/galeria">Galeria</Link>
                   </li>
