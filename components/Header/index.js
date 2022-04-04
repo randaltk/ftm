@@ -7,8 +7,8 @@ const Header = ({ click }) => {
   var images = [
     "https://res.cloudinary.com/aguadeira/image/upload/v1646225142/FTM/vendas/pexels-kindel-media-9800117_jra0x2.jpg",
     "https://res.cloudinary.com/aguadeira/image/upload/v1646229652/FTM/vendas/pexels-dimitry-anikin-4994495_xjqvao.jpg",
-    "https://res.cloudinary.com/aguadeira/image/upload/v1646229723/FTM/vendas/pexels-pixabay-33192_esdciu.jpg",
-    "https://res.cloudinary.com/aguadeira/image/upload/v1646243362/FTM/vendas/pexels-magda-ehlers-2569842_gn5y31.jpg",
+    // "https://res.cloudinary.com/aguadeira/image/upload/v1646229723/FTM/vendas/pexels-pixabay-33192_esdciu.jpg",
+    // "https://res.cloudinary.com/aguadeira/image/upload/v1646243362/FTM/vendas/pexels-magda-ehlers-2569842_gn5y31.jpg",
   ];
 
   const sliderRef = useRef();
@@ -31,12 +31,12 @@ const Header = ({ click }) => {
     if (number === 2) {
       sliderRef.current.style.backgroundImage = "url(" + images[1] + ")";
     }
-    if (number === 3) {
-      sliderRef.current.style.backgroundImage = "url(" + images[2] + ")";
-    }
-    if (number === 4) {
-      sliderRef.current.style.backgroundImage = "url(" + images[3] + ")";
-    }
+    // if (number === 3) {
+    //   sliderRef.current.style.backgroundImage = "url(" + images[2] + ")";
+    // }
+    // if (number === 4) {
+    //   sliderRef.current.style.backgroundImage = "url(" + images[3] + ")";
+    // }
   }
   return (
     <>
@@ -128,14 +128,14 @@ const Header = ({ click }) => {
                 className={styles.dot}
                 onClick={() => currentSlide(2)}
               ></span>
-              <span
+              {/* <span
                 className={styles.dot}
                 onClick={() => currentSlide(3)}
               ></span>
               <span
                 className={styles.dot}
                 onClick={() => currentSlide(4)}
-              ></span>
+              ></span> */}
             </div>
           </section>
           <div className={styles.container}>
