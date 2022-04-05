@@ -46,22 +46,59 @@ function Details(props) {
                 <li className={styles.topic}>
                   {JSON.parse(props.router.query.fichaTecnica).acionamento}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).motor === ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).motor}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).tensao === ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).tensao}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).peso === ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).peso}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).dimensoes === ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).dimensoes}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).vazao === ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).vazao}
                 </li>
-                <li className={styles.topic}>
+                <li
+                  className={
+                    JSON.parse(props.router.query.fichaTecnica).capacidade ===
+                    ""
+                      ? styles.sumir
+                      : styles.topic
+                  }
+                >
                   {JSON.parse(props.router.query.fichaTecnica).capacidade}
                 </li>
               </ul>

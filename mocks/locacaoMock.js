@@ -12,14 +12,14 @@ const locacaoMock = [
       pressao: "Design Compacto",
       saidas: "Melhor na indústria relação resistência-peso ",
       acionamento: "Pressão Máxima 700 bar",
-      motor: "•	Faixa de torque 272 à 72.000 N.m ",
-      tensao: "Certificado de calibração rastreado RBC ",
-      peso: "Drive quadrado: de 1/2” à 2 ½” que abrange uma grande quantidade de soquetes.",
+      motor: "Faixa de torque 272 à 72.000 N.m ",
+      tensao: " Certificado de calibração rastreado RBC ",
+      peso: " Drive quadrado: de 1/2” à 2 ½” que abrange uma grande quantidade de soquetes.",
       dimensoes:
         "Swivel podendo ser ajustado em 360° e 180° grau facilitando a conexão da mangueira permitindo ajuste fácil em espaços confinados, eliminando as dobras. ",
       vazao: "1,02 l/min",
       capacidade:
-        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário. ",
+        "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário.",
     },
     imagemTabela:
       "https://res.cloudinary.com/aguadeira/image/upload/v1642441202/FTM/vendas/fcharq_t4rm9y.png",
@@ -98,6 +98,8 @@ const locacaoMock = [
       peso: "Entrada (Quadrado) ½” / Saída (Sextavado) 46 mm",
       dimensoes:
         "Trava anti-reverso, projetada para impedir o retorno da catraca para manter o torque necessário",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela:
       "https://res.cloudinary.com/aguadeira/image/upload/v1643131392/FTM/vendas/ftm2lte22_pvd0lo.png",
@@ -106,7 +108,7 @@ const locacaoMock = [
   },
 
   {
-    id: 4,
+    id: 5,
     nome: "Tensionador",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png",
@@ -132,7 +134,7 @@ const locacaoMock = [
     imagemArq: "/",
   },
   {
-    id: 5,
+    id: 6,
     nome: "Bomba Hidráulica para Torque",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646250935/FTM/vendas/WhatsApp_Image_2022-03-02_at_16.51.07_1_fjv6vo.jpg",
@@ -156,7 +158,7 @@ const locacaoMock = [
   },
 
   {
-    id: 6,
+    id: 7,
     nome: "Torquímetro Manual",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646246131/FTM/vendas/torquimetro-manual_mglevd.jpg",
@@ -174,13 +176,17 @@ const locacaoMock = [
       acionamento: "Dados técnicos",
       motor: "Capacidade de até 3000 Nm",
       tensao: "Quadrado: 1/4, 3/8 , 1/2 , 3/4 , 1 e 1.1/2",
+      peso: "",
+      dimensoes: "",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela: "/",
     imagemArq: "/",
   },
 
   {
-    id: 7,
+    id: 8,
     nome: "Máquinas de Corte e Bisel",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646246769/FTM/vendas/Maquinas-de-Corte-e-Bisel_zzyzsb.jpg",
@@ -194,13 +200,17 @@ const locacaoMock = [
       motor: "Espessura Máxima de tubo 3",
       tensao:
         "Máquinas para diferente diâmetro de tubo: 2 à 6 / 8 à 14 / 16 à 22 / 24 à 30",
+      peso: "",
+      dimensoes: "",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela: "/",
     imagemArq: "/",
   },
 
   {
-    id: 8,
+    id: 9,
     nome: "Faceadora de Flanges",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646247663/FTM/vendas/Faceadora-de-Flanges_vhzad0.jpg",
@@ -219,13 +229,17 @@ const locacaoMock = [
       motor:
         "Utilização: Ranhura Expiral - Concêntrico e liso - Casco - Boleado - Carretel Boca de Visita - Flanges - Espelho",
       tensao: "",
+      peso: "",
+      dimensoes: "",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela: "/",
     imagemArq: "/",
   },
 
   {
-    id: 8,
+    id: 10,
     nome: "Torqueadeira Rotativa Elétrica",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1646663366/FTM/vendas/Torqueadeira-Rotativa-Eletrica_sjufmq.jpg",
@@ -251,7 +265,7 @@ const locacaoMock = [
   },
 
   {
-    id: 8,
+    id: 11,
     nome: "Corta Porca Hidráulico",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1647085233/FTM/vendas/Corta-porca-hidraulico_i1vvkk.jpg",
@@ -263,26 +277,36 @@ const locacaoMock = [
       pressao: "Sextavado: 24 à 32 mm",
       saidas: "Capacidade: 15 toneladas",
       acionamento: "Peso: 3 kg",
+      motor: "",
+      tensao: "",
+      peso: "",
+      dimensoes: "",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela: "/",
     imagemArq: "/",
   },
 
   {
-    id: 9,
+    id: 12,
     nome: "Chave de Impacto Pneumática",
     imagem:
       "https://res.cloudinary.com/aguadeira/image/upload/v1648562006/FTM/vendas/Chave-de-Impacto-Pneumatica_papsdt.jpg",
     descricao: `Ferramenta geralmente utilizada para apertar e soltar porcas de segurança. Este tipo de ferramenta é desenvolvida especialmente para proporcionar a máxima transmissão da energia
     de impacto para a porca sendo muito útil para a manipulação de parafusos oxidados, entre outras utilizações.
     `,
+
     fichaTecnica: {
       pressao: "Encaixe Quadrado: 1",
       saidas: "Consumo de Ar: 6 bar",
       acionamento: "Mangueira: 3/4",
       motor: "Peso: 16 kg",
       tensao: "Capacidade: 500 à 2500 Nm",
-      peso: "RPM: 3700",
+      peso: "",
+      dimensoes: "",
+      vazao: "",
+      capacidade: "",
     },
     imagemTabela: "/",
     imagemArq: "/",
