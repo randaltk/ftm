@@ -43,6 +43,16 @@ const Header = ({ click }) => {
       <header className={styles.headerStyle} ref={sliderRef}>
         <div className={styles.linearGradient}>
           <div className={styles.headerNavigation}>
+            <div className={styles.logoMetalPev2}>
+              <a href="/">
+                <Image
+                  width={214}
+                  height={112}
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636205192/FTM/sadasas-depositphotos-bgremover_jxyrfv.png"
+                  alt="FTM Equipamentos Hidráulicos de Alta Pressão"
+                />
+              </a>
+            </div>
             <div className={styles.headerMenu}>
               <div className={styles.menuIconToggleMenu} onClick={click}>
                 ≡
