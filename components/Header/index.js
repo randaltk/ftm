@@ -44,14 +44,14 @@ const Header = ({ click }) => {
         <div className={styles.linearGradient}>
           <div className={styles.headerNavigation}>
             <div className={styles.logoMetalPev2}>
-              <a href="/">
+              <Link href="/">
                 <Image
                   width={214}
                   height={112}
                   src="https://res.cloudinary.com/aguadeira/image/upload/v1636205192/FTM/sadasas-depositphotos-bgremover_jxyrfv.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
                 />
-              </a>
+              </Link>
             </div>
             <div className={styles.headerMenu}>
               <div className={styles.menuIconToggleMenu} onClick={click}>

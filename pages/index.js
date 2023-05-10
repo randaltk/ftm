@@ -1,8 +1,15 @@
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
+import posthog from "posthog-js"; // new
 
 import { useRouter } from "next/router";
+
 export default function Home() {
+  if (typeof window !== "undefined") {
+    posthog.init("phc_iUCwqO9iWx1wUiUOsPDbcbJkoZ6xM4NaM0oNI31G9hE", {
+      api_host: "https://app.posthog.com",
+    });
+  }
   const router = useRouter();
   const routeChange = (e, item) => {
     let path = "";

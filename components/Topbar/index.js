@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../../styles/Topbar.module.scss";
+import Link from "next/dist/client/link";
 
 const Topbar = () => {
   return (
@@ -7,14 +8,14 @@ const Topbar = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.logoMetalPev}>
-            <a href="/">
+            <Link href="/">
               <Image
                 width={214}
                 height={112}
                 src="https://res.cloudinary.com/aguadeira/image/upload/v1636991087/FTM/sadasas_lelmlm_1_a6uq54.jpg"
                 alt="FTM Equipamentos Hidráulicos de Alta Pressão"
               />
-            </a>
+            </Link>
           </div>
 
           <div className={styles.item}>
