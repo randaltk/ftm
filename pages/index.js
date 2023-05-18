@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.scss";
 import Image from "next/image";
-import posthog from "posthog-js"; // new
+import posthog from "posthog-js";
 
 import { useRouter } from "next/router";
 
@@ -42,7 +42,7 @@ export default function Home() {
               <div className={styles.borderStyle}></div>
               <h2 className={styles.title}>Sobre</h2>
               <p className={styles.description}>
-                A FTM é uma empresa especializa na Fabricação e Locação de
+                A FTM é uma empresa especializada na Fabricação e Locação de
                 equipamentos hidráulicos de alta pressão; Chaves de torque,
                 tensionadores e projetos especiais que proporcionam facilidade e
                 confiabilidade a diversas procedimentos de montagens

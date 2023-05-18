@@ -106,6 +106,15 @@ const Footer = () => {
                   />
                   contato@ftm.net.br
                 </p>
+                <p>
+                  <img
+                    width={30}
+                    height={30}
+                    alt="Email"
+                    src="https://res.cloudinary.com/aguadeira/image/upload/v1621877390/public/584856b4e0bb315b0f7675ac_1_1_kd0wv4.png"
+                  />
+                  contato02@ftm.net.br
+                </p>
               </li>
             </ul>
             <h3 className={styles.footerTitle}>
@@ -119,8 +128,8 @@ const Footer = () => {
                 href="https://www.google.com.br/maps/place/R.+Sete+de+Julho,+56+-+Vila+Socorro,+S%C3%A3o+Paulo+-+SP,+04760-070/@-23.6637546,-46.7166505,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce51b1847e0071:0x6fcd6e6aefa16a75!8m2!3d-23.6637595!4d-46.7144618"
               >
                 {" "}
-                Fábrica (Matriz): Rua Sete de Julho, 56 - 04760-070 - São Paulo
-                -
+                Fábrica (Matriz): Rua Sete de Julho, 56 - Vila Socorro 04760-070
+                - São Paulo - SP
               </a>
             </p>
             <p className={styles.footerDescription}>
@@ -129,8 +138,8 @@ const Footer = () => {
                 href="https://www.google.com.br/maps/place/R.+Padre+Jo%C3%A3o+%C3%81lvares,+509+-+Vila+Renata,+Guarulhos+-+SP,+07056-000/@-23.462695,-46.5667986,17z/data=!3m1!4b1!4m5!3m4!1s0x94cef5bcb277f9f7:0x2f8a43eae31041ec!8m2!3d-23.4626999!4d-46.5646099"
               >
                 {" "}
-                Comercial (filial): SP Rua Padre João Álvares, 509 - 07056-000 -
-                Guarulhos - SP
+                Comercial (filial): Rua Padre João Álvares, 509 - Vila Renata
+                07056-000 - Guarulhos - SP
               </a>
             </p>
           </div>

@@ -22,7 +22,7 @@ export default function Upload() {
           required
         />
 
-        <label htmlFor="Email">Email</label>
+        <label htmlFor="Email">Email corporativo</label>
         <input
           type="text"
           name="email"
