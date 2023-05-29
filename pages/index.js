@@ -30,28 +30,75 @@ export default function Home() {
       <div>
         <section className={styles.sessaoSobre}>
           <div className={styles.contentPresentation}>
-            <div className={styles.contentBanner}>
-              <Image
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
-                alt="Inspeção"
-                width={438.08}
-                height={350.38}
-              />
+            <div className={styles.sessaoWindPower}>
+              <div className={styles.contentBanner}>
+                <Image
+                  src="https://res.cloudinary.com/aguadeira/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1685368997/FTM/feira-wind-power-edit_ccrqjh.jpg"
+                  alt="Inspeção"
+                  width={438.08}
+                  height={350.38}
+                />
+              </div>
+              <div className={styles.sessaoWindPower}>
+                <div className={styles.borderStyle}></div>
+                <h2 className={styles.title}>FTM na feira Wind Power !</h2>
+                <p className={styles.description}>
+                  Entre os dias 12 e 14 de Setembro ocorrerá o maior evento de
+                  energia eólica da américa latina, a Wind Power.{" "}
+                  <p>
+                    O evento será no parque de exposições São Paulo Expo.{" "}
+                    <a
+                      target="_blank"
+                      href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo+Expo/@-23.6460103,-46.6322313,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5adda4c3cb95:0x31916ce58f719167!8m2!3d-23.6460103!4d-46.6296564!16s%2Fg%2F122q9t55?entry=ttu"
+                    >
+                      <img
+                        width={30}
+                        height={30}
+                        alt="Localizacao"
+                        src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                      />
+                    </a>
+                  </p>
+                  <p>
+                    Clique{" "}
+                    <a
+                      href="https://www.brazilwindpower.com.br/pt/home.html"
+                      className={styles.btnClick}
+                      target="_blank"
+                    >
+                      aqui{" "}
+                    </a>{" "}
+                    e acesse o link da feira !
+                  </p>
+                </p>
+              </div>
             </div>
-            <div className={styles.sessaoContent}>
-              <div className={styles.borderStyle}></div>
-              <h2 className={styles.title}>Sobre</h2>
-              <p className={styles.description}>
-                A FTM é uma empresa especializada na Fabricação e Locação de
-                equipamentos hidráulicos de alta pressão; Chaves de torque,
-                tensionadores e projetos especiais que proporcionam facilidade e
-                confiabilidade a diversas procedimentos de montagens
-                industriais, onde há a necessidade de torqueamento ou
-                tensionamento controlado, através de modernas ferramentas
-                fabricadas dentro dos mais rígidos padrões de qualidade da
-                Industria 4.0.
-              </p>
+            <div className={styles.sessaoSobree}>
+              {" "}
+              <div className={styles.contentBanner}>
+                <Image
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
+                  alt="Inspeção"
+                  width={438.08}
+                  height={350.38}
+                />
+              </div>
+              <div className={styles.sessaoContent}>
+                <div className={styles.borderStyle}></div>
+                <h2 className={styles.title}>Sobre</h2>
+                <p className={styles.description}>
+                  A FTM é uma empresa especializada na Fabricação e Locação de
+                  equipamentos hidráulicos de alta pressão; Chaves de torque,
+                  tensionadores e projetos especiais que proporcionam facilidade
+                  e confiabilidade a diversas procedimentos de montagens
+                  industriais, onde há a necessidade de torqueamento ou
+                  tensionamento controlado, através de modernas ferramentas
+                  fabricadas dentro dos mais rígidos padrões de qualidade da
+                  Industria 4.0.
+                </p>
+              </div>
             </div>
+
             <a id="quem-somos" name="quem-somos"></a>
             <div className={styles.sessaoContent} style={{ marginTop: "8em" }}>
               <div className={styles.borderStyle}></div>
@@ -148,91 +195,32 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
-            {/* <div
-              className={styles.cardsContent}
-              onClick={(e) => routeChange(e, "assistencia")}
-            >
-              <Image
-                className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636989021/FTM/0b425151-3a22-4b00-8ff8-1b12536c0b2a_1_v8c61u.jpg"
-                alt="Escadas"
-                width={578}
-                height={640}
-              />
-              <div className={styles.cardsDescription}>
-                <h3>Calibração</h3>
-                <p>
-                  A FTM conta com uma equipe técnica altamente qualificada para
-                  manutenção de máquinas e ferramentas do segmento hidráulico,
-                  mecânico, elétrico, pneumático e manual.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={styles.cardsContent}
-              onClick={(e) => routeChange(e, "assistencia")}
-            >
-              <Image
-                className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
-                alt="Escadas"
-                width={578}
-                height={640}
-              />
-              <div className={styles.cardsDescription}>
-                <h3>Manutenção</h3>
-                <p>
-                  A FTM conta com uma equipe técnica altamente qualificada para
-                  manutenção de máquinas e ferramentas do segmento hidráulico,
-                  mecânico, elétrico, pneumático e manual.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={styles.cardsContent}
-              onClick={(e) => routeChange(e, "assistencia")}
-            >
-              <Image
-                className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636494064/FTM/7191af8b-d2d3-4627-850e-3b23d3ec56da_3_gfxfw3.jpg"
-                alt="Escadas"
-                width={578}
-                height={640}
-              />
-              <div className={styles.cardsDescription}>
-                <h3>Assistência Técnica</h3>
-                <p>
-                  A FTM conta com uma equipe técnica altamente qualificada para
-                  manutenção de máquinas e ferramentas do segmento hidráulico,
-                  mecânico, elétrico, pneumático e manual.
-                </p>
-              </div>
-            </div>
-
-            <div
-              className={styles.cardsContent}
-              onClick={(e) => routeChange(e, "assistencia")}
-            >
-              <Image
-                className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636990367/FTM/83e540ab-c0b6-4393-a21a-a747945fe95d_2_q2s7u0.jpg"
-                alt="Escadas"
-                width={578}
-                height={640}
-              />
-              <div className={styles.cardsDescription}>
-                <h3>Treinamentos</h3>
-                <p>
-                  A FTM conta com uma equipe técnica altamente qualificada para
-                  manutenção de máquinas e ferramentas do segmento hidráulico,
-                  mecânico, elétrico, pneumático e manual.
-                </p>
-              </div>
-            </div> */}
           </div>
+
+          <section
+            style={{
+              marginBottom: "200px",
+              marginTop: "10%",
+              textAlign: "center",
+            }}
+            className={styles.sessaoServicos}
+          >
+            <h2 className={styles.title}>Seguimentos de atuação</h2>
+            <div style={{ textAlign: "center" }}>
+              <ul className={styles.detail}>
+                <li className={styles.topic}>Celulose e papel</li>
+                <li className={styles.topic}>Construção Civil</li>
+                <li className={styles.topic}>Energia Eólica</li>
+                <li className={styles.topic}>Geração de energia</li>
+                <li className={styles.topic}>Indústria alimenticia</li>
+                <li className={styles.topic}>Metalurgica</li>
+                <li className={styles.topic}>Petróleo e gás</li>
+                <li className={styles.topic}>Petroquimica</li>
+                <li className={styles.topic}>Quimica e Farmaceuica</li>
+                <li className={styles.topic}>Usinas de açucar e alcool</li>
+              </ul>
+            </div>
+          </section>
         </section>
       </div>
     </>

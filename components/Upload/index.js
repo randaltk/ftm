@@ -27,8 +27,11 @@ export default function Upload() {
           type="text"
           name="email"
           id="Email"
-          placeholder="Digite seu e-mail"
+          placeholder="Digite seu e-mail corporativo"
           required
+          pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)(?!icloud.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
+          oninvalid="setCustomValidity('Please enter business email')"
+          onchange="try{setCustomValidity('')}catch(e){}')"
         />
         <label htmlFor="Telefone">Telefone</label>
         <input
@@ -43,7 +46,22 @@ export default function Upload() {
         <textarea id="Mensagem" type="text" name="message" required />
 
         {state.succeeded ? (
-          <p>Obrigado! Nós entraremos em contato em breve</p>
+          <>
+            {" "}
+            <p>Obrigado! Nós entraremos em contato em breve</p>
+            <p>
+              {" "}
+              Clique{" "}
+              <a
+                href="/CATALOGO_FTM_2022.pdf"
+                download
+                className={styles.btnClick}
+              >
+                aqui{" "}
+              </a>
+              para fazer o download do nosso Catálogo de vendas 2022 !
+            </p>
+          </>
         ) : (
           <button
             type="submit"

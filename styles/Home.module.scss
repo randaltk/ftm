@@ -151,12 +151,22 @@
     margin-left: 0.5rem;
   }
 }
+.btnClick {
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(53, 112, 231, 0.692) 35%;
+  }
+}
 .sessaoSobre {
   margin: 2rem 8rem;
 
   @media only screen and (max-width: 800px) {
     margin: 2rem 2rem;
   }
+}
+.sessaoSobree {
+  margin-top: 10rem;
 }
 .sessaoAssistencia {
   margin: 2rem 8rem;
@@ -177,6 +187,7 @@
     margin-left: initial;
   }
 }
+
 .contentBanner {
   float: right;
 
@@ -194,13 +205,16 @@
     max-width: 0%;
   }
 }
+
 .detail {
   margin-top: 10px;
+  text-align: center;
+  display: inline-block;
 }
 .topic {
   margin-top: 10px;
-  margin-left: -20px;
 }
+
 .sumir {
   display: none;
 }
