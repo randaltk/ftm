@@ -207,7 +207,7 @@ export default function Home() {
           >
             <h2 className={styles.title}>Seguimentos de atuação</h2>
             <div style={{ textAlign: "center" }}>
-              <ul className={styles.detail}>
+              <ul className={styles.detail2}>
                 <li className={styles.topic}>Celulose e papel</li>
                 <li className={styles.topic}>Construção Civil</li>
                 <li className={styles.topic}>Energia Eólica</li>
