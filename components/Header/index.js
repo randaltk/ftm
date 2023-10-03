@@ -93,7 +93,7 @@ const Header = ({ click }) => {
                 "A melhor solução em torque controlado"
               </h2>
 
-              <p>Torqueando ou tencionando a FTM é a melhor opção.</p>
+              <p>Torqueando ou tensionando a FTM é a melhor opção.</p>
               <p className={styles.description}></p>
               <Link href="/contato">
                 <button className={styles.btnDefault}>
