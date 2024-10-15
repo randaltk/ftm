@@ -33,7 +33,7 @@ export default function Home() {
             <div className={styles.sessaoWindPower}>
               <div className={styles.contentBanner}>
                 <Image
-                  src="https://res.cloudinary.com/aguadeira/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1685368997/FTM/feira-wind-power-edit_ccrqjh.jpg"
+                  src="https://res.cloudinary.com/aguadeira/image/upload/v1729029289/wind-power-att_tywkqg.jpg"
                   alt="Inspeção"
                   width={438.08}
                   height={350.38}
@@ -43,10 +43,11 @@ export default function Home() {
                 <div className={styles.borderStyle}></div>
                 <h2 className={styles.title}>FTM na feira Wind Power !</h2>
                 <p className={styles.description}>
-                  Entre os dias 12 e 14 de Setembro ocorrerá o maior evento de
+                  Entre os dias 22 a 24 de Outubro ocorrerá o maior evento de
                   energia eólica da américa latina, a Wind Power.{" "}
                   <p>
-                    O evento será no parque de exposições São Paulo Expo.{" "}
+                    O evento será no parque de exposições Expo Imigrantes São
+                    Paulo.{" "}
                     <a
                       target="_blank"
                       href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo+Expo/@-23.6460103,-46.6322313,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5adda4c3cb95:0x31916ce58f719167!8m2!3d-23.6460103!4d-46.6296564!16s%2Fg%2F122q9t55?entry=ttu"
@@ -135,7 +136,7 @@ export default function Home() {
 
         <section
           className={styles.sessaoServicos}
-          style={{ marginBottom: "200px", marginTop: "10%" }}
+          style={{ marginTop: "15rem" }}
         >
           <div>
             <h2 className={styles.title}>Serviços e Produtos</h2>
@@ -199,8 +200,7 @@ export default function Home() {
 
           <section
             style={{
-              marginBottom: "200px",
-              marginTop: "10%",
+              marginTop: "5rem",
               textAlign: "center",
             }}
             className={styles.sessaoServicos}

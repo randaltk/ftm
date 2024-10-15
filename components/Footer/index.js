@@ -151,8 +151,8 @@ const Footer = () => {
                 href="https://www.google.com.br/maps/place/R.+Padre+Jo%C3%A3o+%C3%81lvares,+509+-+Vila+Renata,+Guarulhos+-+SP,+07056-000/@-23.462695,-46.5667986,17z/data=!3m1!4b1!4m5!3m4!1s0x94cef5bcb277f9f7:0x2f8a43eae31041ec!8m2!3d-23.4626999!4d-46.5646099"
               >
                 {" "}
-                Comercial (filial): Rua Padre João Álvares, 509 - Vila Renata
-                07056-000 - Guarulhos - SP
+                Comercial (filial): Rua Madame Curie, 400 - Jardim Dourado
+                07093-040 - Guarulhos - SP
               </a>
             </p>
           </div>
