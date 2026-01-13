@@ -23,7 +23,6 @@ const Topbar = () => {
               <span>
                 <b>Fábrica (Matriz):</b> 11 5522-6264{" "}
               </span>
-              <span style={{ marginLeft: "0.5em" }}>| 11 2574-5782 </span>
             </div>
 
             <Image

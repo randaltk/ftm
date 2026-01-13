@@ -40,7 +40,7 @@ export default function Home() {
               </div>
               <div className={styles.description}>
                 <p>
-                  Entre os dias 27 até 29 de Outubro ocorrerá o maior evento de
+                  Entre os dias 27 a 29 de Outubro ocorrerá o maior evento de
                   energia eólica da américa latina, a Wind Power.{" "}
                 </p>
                 <p>

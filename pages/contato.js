@@ -54,7 +54,7 @@ export default function Contato() {
               <span>
                 <b>Fábrica (Matriz):</b> 11 5522-6264{" "}
               </span>
-              <span style={{ marginLeft: "0.5em" }}>| 11 2574-5782 </span>
+
               <span style={{ marginLeft: "0.5em" }}>
                 (Engenharia - 11 99416-6042)
               </span>
