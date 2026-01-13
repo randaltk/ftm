@@ -30,8 +30,12 @@ export default function Upload() {
           placeholder="Digite seu e-mail corporativo"
           required
           pattern="^[a-zA-Z0-9._%+-]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!live.com)(?!outlook.com)(?!icloud.com)[a-zA-Z0-9_-]+.[a-zA-Z0-9-.]{2,61}$"
-          oninvalid="setCustomValidity('Please enter business email')"
-          onchange="try{setCustomValidity('')}catch(e){}')"
+          onInvalid={(e) => e.target.setCustomValidity('Please enter business email')}
+          onChange={(e) => {
+            try {
+              e.target.setCustomValidity('');
+            } catch (err) {}
+          }}
         />
         <label htmlFor="Telefone">Telefone</label>
         <input

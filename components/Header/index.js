@@ -15,13 +15,17 @@ const Header = ({ click }) => {
 
   useEffect(() => {
     var i = 0;
-    setInterval(function () {
-      sliderRef.current.style.backgroundImage = "url(" + images[i] + ")";
-      i = i + 1;
-      if (i == images.length) {
-        i = 0;
+    const interval = setInterval(function () {
+      if (sliderRef.current) {
+        sliderRef.current.style.backgroundImage = "url(" + images[i] + ")";
+        i = i + 1;
+        if (i == images.length) {
+          i = 0;
+        }
       }
     }, 5000);
+    
+    return () => clearInterval(interval);
   }, []);
 
   function currentSlide(number) {
