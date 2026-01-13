@@ -10,9 +10,12 @@ const Footer = () => {
           <div className={styles.siteMap}>
             <div className={styles.logoMetalPev}>
               <Link href="/">
-                <img
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
+                <Image
+                  src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
+                  width={200}
+                  height={200}
+                  loading="lazy"
                 />
               </Link>
             </div>
@@ -68,19 +71,21 @@ const Footer = () => {
             </h3>
             <ul className={styles.footerSocial}>
               <li>
-                <img
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1621878348/public/58e91afdeb97430e81906504_1_lsl4hy.png"
+                <Image
+                  src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1621878348/public/58e91afdeb97430e81906504_1_lsl4hy.png"
                   alt="Linkedin"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
               </li>
               <li>
-                <img
-                  src="https://res.cloudinary.com/aguadeira/image/upload/v1621878007/public/584ac2d03ac3a570f94a666d_1_hfppbn.png"
+                <Image
+                  src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1621878007/public/584ac2d03ac3a570f94a666d_1_hfppbn.png"
                   alt="Facebook"
                   width={20}
                   height={20}
+                  loading="lazy"
                 />
               </li>
             </ul>
@@ -98,20 +103,22 @@ const Footer = () => {
               </li> */}
               <li>
                 <p>
-                  <img
+                  <Image
                     width={30}
                     height={30}
                     alt="Email"
-                    src="https://res.cloudinary.com/aguadeira/image/upload/v1621877390/public/584856b4e0bb315b0f7675ac_1_1_kd0wv4.png"
+                    src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1621877390/public/584856b4e0bb315b0f7675ac_1_1_kd0wv4.png"
+                    loading="lazy"
                   />
                   contato@ftm.net.br
                 </p>
                 <p>
-                  <img
+                  <Image
                     width={30}
                     height={30}
                     alt="Email"
-                    src="https://res.cloudinary.com/aguadeira/image/upload/v1621877390/public/584856b4e0bb315b0f7675ac_1_1_kd0wv4.png"
+                    src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1621877390/public/584856b4e0bb315b0f7675ac_1_1_kd0wv4.png"
+                    loading="lazy"
                   />
                   contato02@ftm.net.br
                 </p>
@@ -123,11 +130,12 @@ const Footer = () => {
             </h3>
 
             <p className={styles.footerDescription}>
-              <img
+              <Image
                 width={38}
                 height={38}
                 alt="Localizacao"
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                loading="lazy"
               />
               <a
                 target="_blank"
@@ -139,11 +147,12 @@ const Footer = () => {
               </a>
             </p>
             <p className={styles.footerDescription}>
-              <img
+              <Image
                 width={38}
                 height={38}
                 alt="Localizacao"
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                loading="lazy"
               />
 
               <a

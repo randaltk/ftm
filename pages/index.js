@@ -4,8 +4,6 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 
 export default function Home() {
-  // PostHog is now initialized in _app.js to be available on all pages
-
   const router = useRouter();
   const routeChange = (e, item) => {
     let path = "";
@@ -35,7 +33,8 @@ export default function Home() {
                   alt="Inspeção"
                   width={1200}
                   height={600}
-                  quality={95}
+                  quality={90}
+                  priority
                   className={styles.bannerImageFull}
                 />
               </div>
@@ -51,11 +50,12 @@ export default function Home() {
                     target="_blank"
                     href="https://www.google.com.br/maps/place/S%C3%A3o+Paulo+Expo/@-23.6460103,-46.6322313,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5adda4c3cb95:0x31916ce58f719167!8m2!3d-23.6460103!4d-46.6296564!16s%2Fg%2F122q9t55?entry=ttu"
                   >
-                    <img
+                    <Image
                       width={30}
                       height={30}
                       alt="Localizacao"
-                      src="https://res.cloudinary.com/aguadeira/image/upload/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                      src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1685242685/FTM/pinoteste_1_1_jg8cqk.png"
+                      loading="lazy"
                     />
                   </a>
                 </p>
@@ -78,11 +78,12 @@ export default function Home() {
               <div className={styles.sessaoComImagem}>
                 <div className={styles.contentBanner}>
                   <Image
-                    src="https://res.cloudinary.com/aguadeira/image/upload/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
+                    src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1636984632/FTM/691ece7e-a649-411e-b2ab-2c21fac7006e_1_zvmemj.jpg"
                     alt="Inspeção"
                     width={438.08}
                     height={350.38}
-                    quality={95}
+                    quality={85}
+                    loading="lazy"
                   />
                 </div>
                 <div className={styles.sessaoContent}>
@@ -126,11 +127,12 @@ export default function Home() {
                 </div>
                 <div className={styles.contentBanner}>
                   <Image
-                    src="https://res.cloudinary.com/aguadeira/image/upload/v1636985162/FTM/eaeff13f-25c1-481d-ad07-d25ad1a94910_2_uiwimd.jpg"
+                    src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1636985162/FTM/eaeff13f-25c1-481d-ad07-d25ad1a94910_2_uiwimd.jpg"
                     alt="Inspeção"
                     width={905}
                     height={768}
-                    quality={95}
+                    quality={85}
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -153,10 +155,12 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636987518/FTM/80567124-1081-433c-883d-d01e0214cfa3_1_h4sccd.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1636987518/FTM/80567124-1081-433c-883d-d01e0214cfa3_1_h4sccd.jpg"
                 alt="Caldeiras"
                 width={578}
                 height={640}
+                quality={85}
+                loading="lazy"
               />
               <div className={styles.cardsDescription}>
                 <h3>Locação de Máquinas e Ferramentas</h3>
@@ -182,10 +186,12 @@ export default function Home() {
             >
               <Image
                 className={styles.cardsContentImg}
-                src="https://res.cloudinary.com/aguadeira/image/upload/v1636987443/FTM/venda_1_z2kkkn.jpg"
+                src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1636987443/FTM/venda_1_z2kkkn.jpg"
                 alt="Válvulas"
                 width={578}
                 height={640}
+                quality={85}
+                loading="lazy"
               />
               <div className={styles.cardsDescription}>
                 <h3>Venda de Máquinas e Ferramentas</h3>

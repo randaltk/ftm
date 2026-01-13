@@ -34,6 +34,8 @@ function Details(props) {
               alt={props.router.query.nome}
               width={500}
               height={500}
+              quality={85}
+              priority
             />
             {props.router.query.fichaTecnica !== undefined ? (
               <ul className={styles.detail}>
@@ -114,6 +116,8 @@ function Details(props) {
                 alt={props.router.query.nome}
                 width={800}
                 height={440}
+                quality={85}
+                loading="lazy"
               />
             ) : (
               ""
@@ -125,6 +129,8 @@ function Details(props) {
                 alt={props.router.query.nome}
                 width={800}
                 height={440}
+                quality={85}
+                loading="lazy"
               />
             ) : (
               ""

@@ -71,6 +71,8 @@ export default function Locacao() {
                 alt={locacao.nome}
                 width={500}
                 height={500}
+                loading="lazy"
+                quality={85}
               />
 
               <h3>{locacao.nome}</h3>
