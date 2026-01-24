@@ -65,16 +65,18 @@ export default function Locacao() {
               }
               key={key}
             >
-              <Image
-                className={styles.cardsContentImg}
-                src={locacao.imagem}
-                alt={locacao.nome}
-                width={500}
-                height={500}
-                loading="lazy"
-                quality={85}
-              />
-
+              <div className={styles.imageWrapper}>
+                <Image
+                  className={styles.cardsContentImg}
+                  src={locacao.imagem}
+                  alt={locacao.nome}
+                  width={500}
+                  height={500}
+                  loading="lazy"
+                  quality={90}
+                  sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                />
+              </div>
               <h3>{locacao.nome}</h3>
             </div>
           ))}

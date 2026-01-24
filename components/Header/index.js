@@ -158,52 +158,58 @@ const Header = ({ click }) => {
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1642427393/FTM/vendas/ftm-f_3_kuu0uu.jpg"
               alt="FTM F3"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
 
             <Image
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1642440765/FTM/vendas/fch_pdkaxz.jpg"
               alt="FCH"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
 
             <Image
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1643071441/FTM/vendas/ftmumiljha_1_r9ftdo.png"
               alt="FTM Umiljha"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
 
             <Image
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1643132201/FTM/vendas/Sem_t%C3%ADtulo_elt6rg.png"
               alt="FTM Equipamento"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
             <Image
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1646250935/FTM/vendas/WhatsApp_Image_2022-03-02_at_16.51.07_1_fjv6vo.jpg"
               alt="FTM Equipamento"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
             <Image
               className={styles.item}
               src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1646222433/FTM/vendas/tensionadorwind_1_b2pnsr.png"
               alt="Tensionador Wind"
-              width={200}
+              width={150}
               height={150}
               loading="lazy"
+              quality={90}
             />
           </div>
         </div>

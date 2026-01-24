@@ -34,8 +34,9 @@ function Details(props) {
               alt={props.router.query.nome}
               width={500}
               height={500}
-              quality={85}
+              quality={90}
               priority
+              style={{ objectFit: 'contain', width: '100%', height: 'auto' }}
             />
             {props.router.query.fichaTecnica !== undefined ? (
               <ul className={styles.detail}>
@@ -116,8 +117,9 @@ function Details(props) {
                 alt={props.router.query.nome}
                 width={800}
                 height={440}
-                quality={85}
+                quality={90}
                 loading="lazy"
+                style={{ width: '100%', height: 'auto', maxWidth: '800px' }}
               />
             ) : (
               ""
@@ -129,8 +131,9 @@ function Details(props) {
                 alt={props.router.query.nome}
                 width={800}
                 height={440}
-                quality={85}
+                quality={90}
                 loading="lazy"
+                style={{ width: '100%', height: 'auto', maxWidth: '800px', marginTop: '1rem' }}
               />
             ) : (
               ""

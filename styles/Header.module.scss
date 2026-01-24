@@ -198,20 +198,28 @@
 
 .container {
   display: flex;
-  margin-top: -18em;
-  margin-left: 26em;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: -12em;
+  padding: 0 2rem;
   max-width: 100%;
 
   .item {
-    margin-bottom: 5em;
-
-    flex: 1;
-    margin: 1%;
-    border-radius: 50%;
-    height: 150px;
-    overflow: hidden;
+    flex: 0 0 auto;
     width: 150px;
-    margin: 0 2px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    }
   }
 
   @media only screen and (max-width: 1300px) {

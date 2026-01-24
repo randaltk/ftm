@@ -159,8 +159,9 @@ export default function Home() {
                 alt="Caldeiras"
                 width={578}
                 height={640}
-                quality={85}
+                quality={90}
                 loading="lazy"
+                sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <div className={styles.cardsDescription}>
                 <h3>Locação de Máquinas e Ferramentas</h3>
@@ -190,8 +191,9 @@ export default function Home() {
                 alt="Válvulas"
                 width={578}
                 height={640}
-                quality={85}
+                quality={90}
                 loading="lazy"
+                sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
               <div className={styles.cardsDescription}>
                 <h3>Venda de Máquinas e Ferramentas</h3>

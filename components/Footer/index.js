@@ -13,9 +13,10 @@ const Footer = () => {
                 <Image
                   src="https://res.cloudinary.com/aguadeira/image/upload/q_auto,f_auto/v1624376725/FTM/58381766_2253291008227679_90483295795544064_n_1_1_zbwpjn_3_wqxjyj.png"
                   alt="FTM Equipamentos Hidráulicos de Alta Pressão"
-                  width={200}
-                  height={200}
+                  width={180}
+                  height={120}
                   loading="lazy"
+                  style={{ width: 'auto', height: 'auto', maxWidth: '180px' }}
                 />
               </Link>
             </div>
