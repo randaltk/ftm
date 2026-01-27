@@ -41,35 +41,6 @@ export default function Contato() {
           </div>
         </div>
       </section>
-
-      <section className={styles.sessaoContato}>
-        <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <div>
-            <h4>Endereços</h4>
-            <b>Fábrica (Matriz):</b> Rua Sete de Julho, 56 - 04760-070 - São
-            Paulo - <br></br> <b>Comercial (filial):</b> SP Rua Padre João
-            Álvares, 509 - 07056-000 - Guarulhos - SP
-            <h4>Contato</h4>
-            <div style={{ display: " flex" }}>
-              <span>
-                <b>Fábrica (Matriz):</b> 11 5522-6264{" "}
-              </span>
-
-              <span style={{ marginLeft: "0.5em" }}>
-                (Engenharia - 11 99416-6042)
-              </span>
-            </div>
-            <div style={{ display: "flex" }}>
-              <span>
-                <b>Comercial (filial):</b> 11 2304-5873
-              </span>
-              <span style={{ marginLeft: "0.5em" }}>| 11 2304-2767 </span>
-
-              <span style={{ marginLeft: "0.5em" }}>| 11 98576-2624 </span>
-            </div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
