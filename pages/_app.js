@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
         <Header click={() => setSideToggle(true)} />
         <ReactWhatsapp
           className={styles.wppAbsolute}
-          number="55 11 99416-6042"
+          number="55 11 97207-0047"
           message="Olá! Gostaria de obter mais informações"
           href="#"
         >
